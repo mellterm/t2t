@@ -1,0 +1,4 @@
+<% @title %>
+
+<%= render :partial => "shared/show_translations", :locals => {:translation => @translation, :repo => @repo} %>
+<p><%= link_to "Back to Repo", repos_path(@repo) %></p>

@@ -1,0 +1,23 @@
+Fehler an Telimat Verstellung|Telimat setting error
+Blockade AGP|Blockade DP
+Blockade Schieber|Blockade slider
+kg-Zähler abgleichen|
+Ablgeich starten|Start comparison
+Wiege kg-Zähler|kg counter cradle
+Filterfaktor|Filter factor
+Kalibrierwerte|Calibration value
+Kalibrierpunkt 1|Calibration point 1
+Kalibrierpunkt 2|Calibration point 2
+Fließfaktor hat sich stark verändert, bitte überprüfen!|Flow factor has changed dramatically, please check!
+Menge wiegen nicht möglich Maschine muss  still stehen.|Not possible to weigh load, machine must stop.
+Abgleich kg-Zähler nicht   möglich. Maschine muss still stehen.|Not possible to compare kg counter. Machine must stop.
+
+
+
+
+
+
+
+
+
+

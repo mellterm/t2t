@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
   attr_accessor :password
   before_save :encrypt_password
   
-  has_many :repos, :dependent => :destroy
+  has_many :repos, :foreign_key => :owner_id, :dependent => :destroy
   
   
   email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i

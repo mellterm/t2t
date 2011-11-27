@@ -1,0 +1,12 @@
+<h1> All of Your Repos, all of your translations</h1>
+<% for repo in @repos %>
+<h2> REPO <%= @repos.index(repo)+1 %> </h2>
+	<% for trans in @translations %>
+ 		<h3>Translations for repo1 etc </h3>
+	<% end %>   
+<% end %>   
+
+<%= link_to "Show", repo_path(repo) %>
+<%= link_to "Edit", edit_repo_path(repo) %>
+<%= link_to "Destroy", repo_path(repo), :confirm => 'Are you sure?', :method => :delete %>
+<p><%= link_to "New Repo", new_repo_path %></p>

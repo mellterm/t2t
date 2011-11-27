@@ -1,0 +1,13 @@
+Fehler an Telimat Verstellung|Error en ajuste de Telimat
+Blockade AGP|Bloqueo de PS
+Blockade Schieber|Blockade slider
+kg-Zähler abgleichen|Bloqueo de corredera
+Ablgeich starten|Iniciar calibrado
+Wiege kg-Zähler|Calibrar contador kg
+Filterfaktor|Factor de filtro
+Kalibrierwerte|Calibration value
+Kalibrierpunkt 1|Punto de calibración 1
+Kalibrierpunkt 2|Punto de calibración 2
+Fließfaktor hat sich stark verändert, bitte überprüfen!|El factor de flujo ha cambiado considerablemente. Compruébelo.
+Menge wiegen nicht möglich Maschine muss  still stehen.|No es posible pesar cantidades. La máquina debe estar detenida.
+Abgleich kg-Zähler nicht   möglich. Maschine muss still stehen.|No es posible calibrar el contador kg. La máquina debe estar detenida.

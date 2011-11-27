@@ -46,9 +46,12 @@ def make_repos
   end
   
   def make_translations
-
+    #a way to get list of IDS from DB 
+    #ids_array = get_list_of_ids_from_sourceUnit() 
+    repo_ids = Repo.all.map &:id
+    repo_id_size = repo_ids.count
     isPublic = rand(0)>0.5 ? true : false
-    repoID = rand(10)
+    repoID = rand(repo_id_size)
     created_at =  2.days.ago..Time.now
     SourceUnit.all.each do |src|
       TargetUnit.all.each do |tar|

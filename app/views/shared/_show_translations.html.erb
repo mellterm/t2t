@@ -1,0 +1,18 @@
+<% if @translations.empty? %>
+	<h2> <%= t(:no_translations_in_the_database)  %></h2>
+<% else %>
+	<div id="showTranslations">
+		<strong>Translations:</strong>
+	<% for trans in @translations %>
+		<div id="translation">	
+			<span class="sourceContent"><%= trans.source_content %> | <%= Language.find_by_id(trans.source_language_id).ISOcode unless trans.source_language_id.blank? %> </span>
+			<span class="TargetContent"><%= trans.target_content %> | <%= Language.find_by_id(trans.target_language_id).ISOcode unless trans.target_language_id.blank? %> </span>
+		<% unless trans.domains.empty? %>
+			<% for domain in trans.domains %>
+					<!-- TODO: access descriptions using 118n table  -->
+					<p class="domains"><%= domain.code %></p>
+			<% end %>
+		<% end %>
+	<% end %>
+		<div>	
+<% end %>

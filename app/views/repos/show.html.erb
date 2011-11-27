@@ -1,0 +1,30 @@
+<%= @title %>
+
+<div id="providerinfo">
+  <strong>Name:</strong>
+  <%= @repo.name %>
+</div>
+
+<!-- list existing translations by domain -->
+<!-- render 'shared/show_translations' -->
+
+
+<!-- basic search existing translations/use autocomplete -->
+
+<!-- add form to create one or more translations render out-->
+<%= semantic_form_for @repo do |f| %>
+	<%= f.fields_for :translation do |tr| %>
+		<span class="sourceTranslation"><%= tr.input :source_language_id, :label => I18n.t(:source_language), :include_blank => false, :as => :select, :maxlength => 15, :collection => Language.find(:all, :order => 'name ASC') %><%= tr.input :source_content, :label => I18n.t(:source_term) %></span>
+			<span class="targetTranslation"><%= tr.input :target_language_id, :label => I18n.t(:target_language), :include_blank => false, :as => :select, :maxlength => 15, :collection => Language.find(:all, :order => 'name DESC') %><%= tr.input :target_content, :label => I18n.t(:target_term) %></span>
+		<%= tr.input :isPublic, :as => :boolean, :label => I18n.t(:public) %>
+	<% end %>	
+<%= f.submit 'Submit' %>
+<% end %>
+
+<%= link_to "Edit", edit_repo_path(@repo) %> |
+  <%= link_to "Destroy", @repo, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All Translations", repo_translations_path(@repo) %>
+ <%= link_to t(:qnew_repo), new_repo_path(@user) %>
+</p>
+
+<%= debug params %>

@@ -12,4 +12,9 @@ class PagesController < ApplicationController
     @title = "Contact"
   end
 
+  def cv
+    @title = "CV"
+  end
+    
+    
 end

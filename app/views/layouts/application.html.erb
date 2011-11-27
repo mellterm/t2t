@@ -3,12 +3,17 @@
   <head>
     <title><%= @title %></title>
     <%= csrf_meta_tag %>
+	
+	<!-- cache all stylesheets into a single base css -->
+    <%= stylesheet_link_tag 'blueprint-css-9bf9513/blueprint/screen', 'custom', 'formtastic', 'formtastic_changes', :cache => 'base'  %>
+	
+	
 	<!--[if lt IE 9]>
 	    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	    <![endif]-->
-    <%= stylesheet_link_tag 'blueprint-css-9bf9513/blueprint/screen', :media => 'screen' %>
 	<!--[if lt IE 8]><%= stylesheet_link_tag '/blueprint-css-9bf9513/blueprint/ie' %><![endif]-->
-	<%= stylesheet_link_tag 'custom', :media => 'screen' %>
+	<!--[if IE 6]><%= stylesheet_link_tag 'formtastic_ie6' %><![endif]-->
+	<!--[if IE 7]><%= stylesheet_link_tag 'formtastic_ie7' %><![endif]-->
 	
 	<style = "text/css">
 		h1 {color: red;}

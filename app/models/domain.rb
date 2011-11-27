@@ -1,9 +1,8 @@
 class Domain < ActiveRecord::Base
   has_many :domain_i18ns
   
-  has_many :translation_domainss
-  has_many :translations, :through =>:translation_domains,:source=> :translation_domains
-  
+  has_many :TranslationDomains
+  has_many :translations, :through =>:TranslationDomains
   
 end
 
