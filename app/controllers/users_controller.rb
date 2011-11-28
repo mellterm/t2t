@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   before_filter :correct_user, :only => [:edit, :update]
   
+  
   def index
 		@title = "All users"
 		@users = User.all
@@ -9,6 +10,7 @@ class UsersController < ApplicationController
   
   def new
     @user = User.new
+      
   end
   
   def create

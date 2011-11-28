@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111127054418) do
+ActiveRecord::Schema.define(:version => 20111128211729) do
 
   create_table "domain_i18ns", :force => true do |t|
     t.integer "domain_id"
@@ -81,6 +81,7 @@ ActiveRecord::Schema.define(:version => 20111127054418) do
     t.string   "password_salt"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "language_id"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

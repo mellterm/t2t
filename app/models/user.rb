@@ -1,10 +1,11 @@
 class User < ActiveRecord::Base
   attr_accessible :email, :password, :password_confirmation
-  attr_accessor :password
+  attr_accessor :password,:preferred_language
   before_save :encrypt_password
   
-  has_many :repos, :foreign_key => :owner_id, :dependent => :destroy
+  belongs_to :preferred_language, :class_name => 'Language'
   
+  has_many :repos, :foreign_key => :owner_id, :dependent => :destroy
   
   email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   

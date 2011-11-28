@@ -56,7 +56,7 @@ def make_repos
     SourceUnit.all.each do |src|
       TargetUnit.all.each do |tar|
             Translation.create!(
-              :source_unit_id => src,
+              :source_content => src,
               :target_unit_id => tar,
               :isPublic => isPublic,
               :repo_id => repoID,
