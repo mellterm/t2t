@@ -51,7 +51,6 @@ ActiveRecord::Schema.define(:version => 20111128223756) do
     t.integer  "language_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "repo_id"
   end
 
   add_index "target_units", ["content"], :name => "index_target_units_on_content"
@@ -64,14 +63,14 @@ ActiveRecord::Schema.define(:version => 20111128223756) do
   end
 
   create_table "translations", :force => true do |t|
+    t.string   "source_content",                       :null => false
+    t.integer  "source_language_id",                   :null => false
+    t.string   "target_content",                       :null => false
+    t.integer  "target_language_id",                   :null => false
     t.integer  "repo_id",                              :null => false
     t.boolean  "isPublic",           :default => true
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "source_content"
-    t.integer  "source_language_id"
-    t.string   "target_content"
-    t.integer  "target_language_id"
   end
 
   add_index "translations", ["source_content"], :name => "index_translations_on_source_content"

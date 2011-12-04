@@ -5,6 +5,7 @@ describe TargetUnit do
 end
 
 
+
 # == Schema Information
 #
 # Table name: target_units
@@ -14,6 +15,5 @@ end
 #  language_id :integer
 #  created_at  :datetime
 #  updated_at  :datetime
-#  repo_id     :integer
 #
 
