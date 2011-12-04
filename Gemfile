@@ -7,7 +7,8 @@ gem 'will_paginate', '3.0.pre2'
 gem 'bcrypt-ruby', :require => 'bcrypt'
 gem 'jquery-rails'
 gem 'formtastic'
-gem "haml" 
+gem "haml"
+gem "acts_as_tree", "~> 0.1.1" 
 
 group :development do
   gem 'rspec-rails', '2.6.1'

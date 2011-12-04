@@ -7,27 +7,31 @@ german_de:
   id: 2    
   ISOcode: de_de
   name: German (Germany)
- 
+  parent_id: 1
+  
 german_at:
   id: 3    
   ISOcode: de_at
   name: German (Austria)
- 
+  parent_id: 1  
+    
 english:
   id: 4    
   ISOcode: en
   name: English 
- 
+   
 english_gb:
   id: 5    
   ISOcode: en_gb
   name: English (GB)
+  parent_id: 4
 
 english_us:
   id: 6 
   ISOcode: en_us
   name: English (US)            
-
+  parent_id: 4
+  
 spanish:
   id: 7 
   ISOcode: es
@@ -42,8 +46,16 @@ russian_ru:
   id: 9  
   ISOcode: ru_ru
   name: Russian (Russia)
+  parent_id: 8
   
 chinese:
   id: 10
   ISOcode: zh
   name: Chinese
+  
+russian_uk:
+  id: 11
+  ISOcode: ru-uk
+  name: Russian (Ukraine)
+  parent_id: 9  
+  

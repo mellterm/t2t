@@ -41,6 +41,7 @@ Fixtures.create_fixtures("#{Rails.root}/db/fixtures", "language_i18ns")
 File.open(RAILS_ROOT + "/lib/tasks/testData_deen.txt").each { |line|
   line = line.chomp
   line = line.split("|")
+  puts line
   @translation = Translation.create!(:source_content => line[0], :target_content => line[1], 
                                   :source_language_id => 1, :target_language_id => 4,
                                   :repo_id => repoID, :created_at => created_at, :isPublic => isPublic)

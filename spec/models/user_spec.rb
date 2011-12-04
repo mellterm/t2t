@@ -4,6 +4,7 @@ describe User do
   pending "add some examples to (or delete) #{__FILE__}"
 end
 
+
 # == Schema Information
 #
 # Table name: users
@@ -14,5 +15,6 @@ end
 #  password_salt :string(255)
 #  created_at    :datetime
 #  updated_at    :datetime
+#  language_id   :integer
 #
 

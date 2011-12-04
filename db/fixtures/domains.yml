@@ -57,18 +57,32 @@ marketing:
    id: 12
    code: MARKETING
    name: Advertising & Marketing
- 
+   parent_id: 13
+
+commercial:
+    id: 13
+    code: COMMERCE
+    name: Commercial, including company correspondence
+      
 general:
-   id: 13
+   id: 14
    code: GENNONTECH
    name: General, non-technical
    
 gentech:
-   id: 14
+   id: 15
    code: GENTECH
    name: General, technical
-
+   
 cad:
-   id: 15
+   id: 16
    code: CAD
    name: Computer Aided Design
+
+energy:
+    id: 17
+    code: ENERGY
+    name: Energy and Power Management
+    parent_id: 18
+    
+    

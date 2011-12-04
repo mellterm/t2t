@@ -28,6 +28,7 @@ GEM
       activemodel (= 3.0.10)
       activesupport (= 3.0.10)
     activesupport (3.0.10)
+    acts_as_tree (0.1.1)
     annotate (2.4.0)
     arel (2.0.10)
     bcrypt-ruby (3.0.1)
@@ -109,6 +110,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  acts_as_tree (~> 0.1.1)
   annotate (= 2.4.0)
   bcrypt-ruby
   factory_girl_rails (= 1.0)

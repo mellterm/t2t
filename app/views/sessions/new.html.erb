@@ -1,13 +1,14 @@
-<!-- common error handling -->
-<% if @user.errors.any? %>
-  <div id="error_explanation">
-    <h2><%= @user.errors.count %> 
-        <% t(:errors_prohibited_this_user_from_being_saved) %></h2>
-    <p><% t(:problems_with_following_fields)%> :</p>
-    <ul>
-    <% @user.errors.full_messages.each do |msg| %>
-      <li><%= msg %></li>
-    <% end %>
-    </ul>
-  </div>
+<h1>Log in</h1>
+
+<%= form_tag sessions_path do %>
+  <p>
+    <%= label_tag :email %><br />
+    <%= text_field_tag :email, params[:email] %>
+  </p>
+  <p>
+    <%= label_tag :password %><br />
+    <%= password_field_tag :password %>
+  </p>
+  <p class="button"><%= submit_tag "Log in" %></p>
 <% end %>
+

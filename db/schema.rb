@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111128211729) do
+ActiveRecord::Schema.define(:version => 20111128223756) do
 
   create_table "domain_i18ns", :force => true do |t|
     t.integer "domain_id"
@@ -20,8 +20,9 @@ ActiveRecord::Schema.define(:version => 20111128211729) do
   end
 
   create_table "domains", :force => true do |t|
-    t.string "code"
-    t.string "name"
+    t.string  "code"
+    t.string  "name"
+    t.integer "parent_id"
   end
 
   create_table "language_i18ns", :force => true do |t|
@@ -31,8 +32,9 @@ ActiveRecord::Schema.define(:version => 20111128211729) do
   end
 
   create_table "languages", :force => true do |t|
-    t.string "ISOcode"
-    t.string "name"
+    t.string  "ISOcode"
+    t.string  "name"
+    t.integer "parent_id"
   end
 
   create_table "repos", :force => true do |t|
