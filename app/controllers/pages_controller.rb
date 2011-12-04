@@ -15,6 +15,9 @@ class PagesController < ApplicationController
   def cv
     @title = "CV"
   end
-    
+  
+  def report
+    @title = "Project Report"
+  end  
     
 end
