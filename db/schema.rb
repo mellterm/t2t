@@ -46,15 +46,6 @@ ActiveRecord::Schema.define(:version => 20111128223756) do
 
   add_index "repos", ["owner_id"], :name => "index_repos_on_owner_id"
 
-  create_table "target_units", :force => true do |t|
-    t.string   "content"
-    t.integer  "language_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "target_units", ["content"], :name => "index_target_units_on_content"
-
   create_table "translation_domains", :force => true do |t|
     t.integer  "translation_id"
     t.integer  "domain_id"
