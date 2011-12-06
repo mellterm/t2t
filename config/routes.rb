@@ -1,5 +1,5 @@
 T2t::Application.routes.draw do
-
+  root :to => 'pages#welcome'
   get "login" => "sessions#new", :as => "login"
   get "logout" => "sessions#destroy", :as => "logout"
   get "signup" => "users#new", :as => "signup"
