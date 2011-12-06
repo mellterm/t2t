@@ -31,12 +31,12 @@ Fixtures.create_fixtures("#{Rails.root}/db/fixtures", "language_i18ns")
 #act simultaneously as source and target
 
 Translation.delete_all
-
-  repo_ids = Repo.all.map &:id
-  repo_id_size = repo_ids.count
-  isPublic = rand(0)>0.5 ? true : false
-  repoID = rand(repo_id_size)
-  created_at =  2.days.ago..Time.now
+  # 
+  # repo_ids = Repo.all.map &:id
+  # repo_id_size = repo_ids.count
+  # isPublic = rand(0)>0.5 ? true : false
+  # repoID = rand(repo_id_size)
+  # created_at =  2.days.ago..Time.now
 
 # domains are MECHENG 7, some TECHDOCU 3 
 # Translation.delete_all

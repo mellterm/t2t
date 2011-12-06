@@ -1,10 +1,9 @@
 namespace :db do
 	desc "Fill database with sample data"
 	task :populate => :environment do
+	  require 'ffaker'
 	  #clears existing database content for tables to be populated
-	  #domain, language are separately seeded
-	  [User, Repo, Translation].each(&:delete_all)
-    Translation.delete_all
+	  #domain, language are separately seeded, as is translation
 	  [User, Repo].each(&:delete_all)
 		Rake::Task['db:reset'].invoke
 		make_users
