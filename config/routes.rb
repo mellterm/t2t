@@ -33,6 +33,7 @@ T2t::Application.routes.draw do
   get "pages/development"
   get "pages/contact"
   get "pages/report"
+  get "pages/dataimport"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -19,5 +19,9 @@ class PagesController < ApplicationController
   def report
     @title = "Project Report"
   end  
+  
+  def dataimport
+    @title = "Data Import Page"
+  end
     
 end
