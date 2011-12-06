@@ -9,11 +9,11 @@ gem 'jquery-rails'
 gem 'formtastic'
 gem "haml"
 gem "acts_as_tree", "~> 0.1.1" 
+gem 'ffaker'
 
 group :development do
   gem 'rspec-rails', '2.6.1'
   gem 'annotate', '2.4.0'
-  gem 'ffaker'
 end
 
 group :test do
