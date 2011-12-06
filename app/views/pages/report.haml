@@ -56,14 +56,59 @@ Here are some screenshots:
 
 
 #difficult
-%h3 Here are some difficulties I encountered:
-%p
-It was very difficult to find the time to do everything. 
-Every single functionality could be optimized in some way or another.
-It was hard to resist the temptation of trying to do too much at once 
+	%h3 Here are some difficulties I encountered:
+	%p
+	Every single functionality could be optimized in some way or another. It was hard to resist the temptation of trying to do too much at once.
+	I had to fight the urge to take bigger steps than I could handle in a single git commit.
+	%p
+	Here's a problem which took me 5 hours to solve:
+	It was actually two problems and involved the deployment of the application to heroku.
+	The first issue is that halfway through this project, I decided to remodel the database. 
+	This was because the form I was developing would have required changing 3 models at the same time and was proving too
+	difficult to develop. In actual fact, there was the model in which all translations are kept (Repos) which in turn will be nested in
+	the User model to ensure that only users who are logged in can create repositories for their translations.
+	The reasoning behind this is was that it would be possible to use Rails to create query chains such as 
+	.code 
+	   User.find_by_name("Dirk Average").repos.find_by_id(1).translations
+	%p 
+	to get all of the translations for Dirk Average belonging to the repo with id 1.
+   
+	This involved writing new migration files which changed the existing DB adding new columns to it.
+	This is tricky when everything is versioned. My mistake was that I deleted the files locally but not via Git (the versioning system)
+	which meant the old migrations remained on the central repository thru which Heroku gets the data.
+	Instead of manually deleting, I should have used the command 
+    .code
+       >> git <mv migration>
+	So, anyway, once I managed to delete the superfluous migrations, I had to reset the remote database before I could deploy again.
+	After doing so a single line of code - the second problem - cost me 2 hours and illustrates the issue with development environments
+	versus production environments. The development cloud server did not allow manual writes to their cache.
+	.code
+	     <%= stylesheet_link_tag 'blueprint-css-9bf9513/blueprint/screen', 'custom', 'formtastic', 'formtastic_changes', :cache => 'base'  %>
+	%p
+	This :cache => 'base' (base is a stylesheet) meant the server threw an error when trying to render the site, meaning I got a 'Something is
+	wrong error' every time I tried to call it up in the cloud. It was hard to trace it back to this issue. I got lucky on Stack Overflow.
+	The environment aspect is this: the application may work fine on your own machine but this does not necessarily mean it will look OK in the cloud!
+	
+	Finally, the CS server at Mills is using an OS which is 9? years old. An ancient version of Rails was installed in place of an acceptable version
+	which failed to handle gems (essential). The package manager on the RedHat linux box was not easy to work with (RVM vs. apt-get). 
+	There was no IT support when it came to deployment. The server is a joke which is why I put the landing pages on it and redirected users to the
+	actual site.
+	%p
+	
+	%h1 Development is about cooperation and it is almost impossible to achieve something lasting unless people work together! 
+	
+
+
+ 
+  
 
 
 #future
 %h3 The future
-Lots more to do!
+Lots more to do if I can find other people are who interested in the project. I have to get complete the dataloading page so that I can complete the 
+application's translation data in the supported languages. The final piece in the jigsaw in making this a showhome site for prospective collaborators
+is to address the issue with the locales and to make the site international. The local YML files ( ) will be posted to a site where users can translate the,.
+A few terms for EN and DE are already in place (config/locales/de.yml).
+
+ 
 
