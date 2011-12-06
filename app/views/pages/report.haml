@@ -14,16 +14,61 @@
   %ul 
 
 #features
+I have implemented a sign-in/signup feature with secure password. The password is stored in the database as a hash.
+Users can select a preferred language when logging in.
+When signing up users will be able to choose a language.
+When switching the locale, users are directed to the page in their specific language (e.g. welcome in the screenshots below).
+
+I created the data modeling backend
+I created some dummy data for the various tables
+Some of the texts have been localized. This feature will require more work because there is the added complexity of establishing what locale to use.
+I set up the repo table which will be the way in which users can store collections of translations.
+From the repo page they can enter a translation for a specific language combination.
+The translations are then stored in that repo (and viewable only from within that repo).
+Later they will be able to set up a domain for that translation and also search within the translations and run queries on them.
+
+In the backend I began a page called dataimport which will be used to parse data from an HTML file (example used: GoogleDocs spreadsheet), or XML file (such as
+a translation-industry standard TMX file).
+%p
+Here are some screenshots:
+%p
+= image_tag("signup.png", :options => {:align =>"center" })
+%p
+%p
+= image_tag("loggingin.png", :options => {:align =>"center" })
+%p
+%p
+= image_tag("loggedinindicator.png", :options => {:align =>"center" })
+%p
+%p
+= image_tag("welcomepage.png", :options => {:align =>"center" })
+%p
+%p
+= image_tag("welcomepage_DE.png", :options => {:align =>"center" })
+%p
+%p
+= image_tag("creatingatranslationfromarepo.png", :options => {:align =>"center" })
+%p
+%p
+= image_tag("examplenewtranslation.png", :options => {:align =>"center" })
+%p
+%p
+= image_tag("listingcreatedtranslation.png", :options => {:align =>"center" })
+%p
+
 
 
 #difficult
+%h3 Here are some difficulties I encountered
+%p
 
 
 
 #solutions
-
+%h3 Some solutions
 
 
 #future
-
+%h3 The future
+Lots more to do!
 

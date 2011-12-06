@@ -4,8 +4,13 @@ namespace :db do
 	  require 'ffaker'
 	  #clears existing database content for tables to be populated
 	  #domain, language are separately seeded
+<<<<<<< HEAD
 	  [User, Repo, Translation].each(&:delete_all)
     Translation.delete_all
+=======
+	  [User, Repo].each(&:delete_all)
+
+>>>>>>> data-input
 		Rake::Task['db:reset'].invoke
 		make_users
 		make_repos
