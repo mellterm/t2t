@@ -119,6 +119,7 @@ DEPENDENCIES
   gravatar_image_tag (= 1.0.0.pre2)
   haml
   jquery-rails
+  nokogiri
   rails (= 3.0.10)
   rspec-rails (= 2.6.1)
   spork (= 0.9.0.rc8)

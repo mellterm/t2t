@@ -10,6 +10,7 @@ gem 'formtastic'
 gem "haml"
 gem "acts_as_tree", "~> 0.1.1" 
 gem 'ffaker'
+gem 'nokogiri'
 
 group :development do
   gem 'rspec-rails', '2.6.1'
