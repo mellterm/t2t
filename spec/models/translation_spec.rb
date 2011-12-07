@@ -9,6 +9,7 @@ end
 
 
 
+
 # == Schema Information
 #
 # Table name: translations
@@ -22,5 +23,8 @@ end
 #  isPublic           :boolean         default(TRUE)
 #  created_at         :datetime
 #  updated_at         :datetime
+#  created_by_id      :integer
+#  last_updated_by    :integer
+#  isTerm             :boolean         default(TRUE)
 #
 

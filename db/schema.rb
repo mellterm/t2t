@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111128223756) do
+ActiveRecord::Schema.define(:version => 20111207060143) do
 
   create_table "domain_i18ns", :force => true do |t|
     t.integer "domain_id"
@@ -62,6 +62,9 @@ ActiveRecord::Schema.define(:version => 20111128223756) do
     t.boolean  "isPublic",           :default => true
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "created_by_id"
+    t.integer  "last_updated_by"
+    t.boolean  "isTerm",             :default => true
   end
 
   add_index "translations", ["source_content"], :name => "index_translations_on_source_content"

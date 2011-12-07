@@ -1,10 +1,11 @@
 class Translation < ActiveRecord::Base
-  attr_accessible :isPublic, :source_content, :target_content, :repo_id, :source_language_id, :target_language_id
+  attr_accessible :isPublic, :source_content, :target_content, :repo_id, :source_language_id, :target_language_id, :isTerm, :created_by_id
   belongs_to :repo
-  
+  belongs_to :created_by, :class_name => "User"
   has_many :TranslationDomains
   has_many :domains, :through =>:TranslationDomains
   validates_presence_of :source_content, :target_content
+  
   
   
       def fresh?
@@ -13,6 +14,7 @@ class Translation < ActiveRecord::Base
       end
 
 end  
+
 
 
 
@@ -32,5 +34,8 @@ end
 #  isPublic           :boolean         default(TRUE)
 #  created_at         :datetime
 #  updated_at         :datetime
+#  created_by_id      :integer
+#  last_updated_by    :integer
+#  isTerm             :boolean         default(TRUE)
 #
 
