@@ -20,8 +20,8 @@ task :import_translation_data  => :environment do
   
  #source language find id got name
   #housekeeping
-  [Translation, TranslationDomain].map(&delete_all)
-  
+  Translation.delete_all
+  TranslationDomain.delete_all
   
   # global data for list
   url2 = "https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0Anhry-cpGvzYdGRNMEtyWVphaEZQVGN3bWMxaF9aU0E&single=true&gid=0&output=html"

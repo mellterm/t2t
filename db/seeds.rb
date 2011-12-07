@@ -30,7 +30,7 @@ Fixtures.create_fixtures("#{Rails.root}/db/fixtures", "language_i18ns")
 #need to load in data separately for each language
 #act simultaneously as source and target
 
-Translation.delete_all
+
   # 
   # repo_ids = Repo.all.map &:id
   # repo_id_size = repo_ids.count
