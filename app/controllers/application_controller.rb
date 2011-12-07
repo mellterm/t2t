@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
   helper_method :current_user, :loggedin?
-  before_filter :set_locale
+  # before_filter :set_locale
 
   def set_locale
     I18n.locale = params[:locale] || I18n.default_locale

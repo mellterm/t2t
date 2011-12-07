@@ -34,5 +34,8 @@ class UsersController < ApplicationController
     redirect_to(root_path) unless current_user?(@user)
   end  
   
-  
+  def show
+    @user = User.find(params[:id])
+    @title = @user.email
+  end
 end

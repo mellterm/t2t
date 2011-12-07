@@ -17,6 +17,8 @@ T2t::Application.routes.draw do
   match '/repos', :to => 'repo#index'
   match '/translations', :to => 'translation#index'
   
+
+  
   #makes urls look like this: www.example.com/en/users non locale display optional
   # scope "(:locale)", :locale => /en|de|ru|zh|es/ do
    

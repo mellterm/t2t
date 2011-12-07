@@ -29,3 +29,6 @@ en:
   welcome_address: "Welcome to t2t"
   sign_up_now:  "Sign up Now!"
   choose_a_language: "Choose a language..."
+  translations: "Translations"
+  created_by: "Created by"
+  last_updated_by: "Last updated by"

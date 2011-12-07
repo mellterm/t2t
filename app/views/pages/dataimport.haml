@@ -1,17 +1,24 @@
 %h1 Data Import
-%p.content
+%p
   Here is a demonstration of data import.
 %p
   Example 1: 
 %p
   Using a GoogleDocs file such as the one shown:
 %p
-= image_tag("googledocstermlist.png")
+  Click on the link to view some terms for a random repo.
+= link_to "view all translations for repo 1", repo_translations_path(1)
 %p
-= link_to("https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0Anhry-cpGvzYdGRNMEtyWVphaEZQVGN3bWMxaF9aU0E&output=html")
+  The code:
+%p 
+  %script{:type => "text/javascript", :charset => "utf-8", :src => "https://gist.github.com/1443773.js?file=dataimportcode"}
+%p
+  = image_tag("googledocstermlist.png")
+%p
+  = link_to("https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0Anhry-cpGvzYdGRNMEtyWVphaEZQVGN3bWMxaF9aU0E&output=html")
 %p
   Importing from a translation memory:
 %p 	
-= image_tag("memory.png")
-	
+  = image_tag("memory.png")
+%p	
 	

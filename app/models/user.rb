@@ -43,6 +43,10 @@ class User < ActiveRecord::Base
 end
 
 
+  def show
+    
+  end
+
 
 # == Schema Information
 #

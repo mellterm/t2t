@@ -17,3 +17,6 @@ en:
   problems_with_following_fields: "Es gab mit den folgenden Feldern Probleme"
   cant_be_blank: "muss gefüllt werden"
   must_be_unique: "darf nicht schon vergeben sein"
+  translations: "Übersetzungen"
+  created_by: "Besitzer"
+  last_updated_by: "Zuletzt geändert von"
