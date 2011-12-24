@@ -1,0 +1,9 @@
+<h3> <%= @title ||= "Edit translation" %> </h3>
+
+<% form_for @translation, :url => { :action => "update" } do |f| %>
+  
+  <%= render :partial => "form", :locals => {:f => f, :translation => @translation, :repo => @repo} %>
+
+  <%= submit_tag t(:update_translation), :class => "button" %>
+  
+<% end %>

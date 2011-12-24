@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   
   def index
 		@title = "All users"
-		@users = User.all
+		@users = User.paginate(:page => params[:page], :per_page => 10)
 	end
   
   
@@ -24,9 +24,21 @@ class UsersController < ApplicationController
     end
   end
   
+  def update
+    @user = current_user
+    if @user.update_attributes(params[:user])
+        flash[:success] = "Successfully updated profile."
+        redirect_to edit_user_path
+    else
+        render :action => 'edit'
+    end
+  end
+    
+  
   def edit
     @user = User.find(params[:id])
-    @title = "Edit profile" 
+    @title = t(:edit_profile)
+    
   end
   
   def correct_user
@@ -36,6 +48,8 @@ class UsersController < ApplicationController
   
   def show
     @user = User.find(params[:id])
-    @title = @user.email
+    @title = @user.name
+    @assignments = @user.assignments
   end
 end
+

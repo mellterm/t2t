@@ -1,0 +1,15 @@
+%h1 All Users in the System
+%p click to get in touch
+= will_paginate(@users)
+- for user in @users
+  = user.name if user.name
+  %br/
+  = user.pitch if user.pitch
+  %br/
+  - if current_user === user && user.email
+    = link_to "#{user.email}", edit_user_path(user)  
+  - else
+    = mail_to "#{user.email}", nil, :replace_at => "_at_", :replace_dot => "_dot_", :class => "email", :subject => t(:i_saw_your_profile_on_t2t) 
+  = Language.find_by_id(user.language_id).name if Language.find_by_id(user.language_id)
+  = user.timezone if user.timezone
+  %br/

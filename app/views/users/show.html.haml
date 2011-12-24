@@ -1,0 +1,27 @@
+= image_tag @user.avatar.url
+%br
+= @user.name
+%br
+= @user.email
+%br
+= Language.find_by_id(@user.language_id).name
+%br
+= @user.timezone
+%br/
+%h1 Your Collaborations:
+
+/ render collaboration feed
+
+%p.links
+/put links in separate file, display by conditions
+- if current_user === @user
+  = link_to t(:edit_user), edit_user_path(@user)
+  |
+  = link_to t(:destroy_this_user), :method => :delete, :confirm => t(:are_you_sure) 
+  |
+= link_to t(:back_to_users), users_path
+
+
+
+
+

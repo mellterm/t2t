@@ -2,9 +2,12 @@
 	<h2> <%= t(:no_translations_in_the_database)  %></h2>
 <% else %>
 		<strong> <%= t(:translations) %>:</strong>
+		
+		<%= will_paginate(@translations) %>
+		
 	<% for trans in @translations %>
-	<!-- :todo public block -->
-	<!-- :TODO will paginate -->
+	<!-- :TODO is public block -->
+
 			<div class="translationbox">	
 				<span class="sourcecontent"><%= trans.source_content %> 
 					<span class="lang"><%= Language.find_by_id(trans.source_language_id).ISOcode unless trans.source_language_id.blank? %> </span><br />
@@ -20,6 +23,8 @@
 					<span class="domains"><%= domain.code  %> | <%= domain.name %></span>
 			<% end %>	
 		<% end %>
+		<br />
+		<%= link_to t(:edit_translation), edit_repo_translation_path(@repo, trans) %> 
 	<% end %>
 			</div>	
 <% end %>

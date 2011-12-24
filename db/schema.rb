@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111207060143) do
+ActiveRecord::Schema.define(:version => 20111223045251) do
+
+  create_table "assignments", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "role_id"
+    t.integer  "repo_id"
+    t.datetime "expires_on"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "domain_i18ns", :force => true do |t|
     t.integer "domain_id"
@@ -46,6 +55,12 @@ ActiveRecord::Schema.define(:version => 20111207060143) do
 
   add_index "repos", ["owner_id"], :name => "index_repos_on_owner_id"
 
+  create_table "roles", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "translation_domains", :force => true do |t|
     t.integer  "translation_id"
     t.integer  "domain_id"
@@ -77,6 +92,14 @@ ActiveRecord::Schema.define(:version => 20111207060143) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "language_id"
+    t.string   "name"
+    t.string   "pitch"
+    t.string   "website"
+    t.string   "timezone"
+    t.string   "avatar_file_name"
+    t.string   "avatar_content_type"
+    t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

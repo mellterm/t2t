@@ -1,6 +1,8 @@
 <div id="user_nav">
   <% if loggedin? %>
-    <% t(:logged_in_as) %> <%= current_user.email %>
+    <%= t(:logged_in_as) %>
+	<%= current_user.name %> |
+	<%= current_user.email %>
     <%= link_to "Log out", logout_path %>
   <% end %>
 </div>

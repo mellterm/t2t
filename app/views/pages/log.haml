@@ -1,0 +1,75 @@
+%h1 Keep track of what is going on..
+
+%p = Date.today
+%em branch: Master
+%p.done mass segment data from TMX complete except for parsing DE sentences to remove tag data....Not sure where to go on that
+.todo Once this is done we can use will_paginate and create links between terms and segments via Associations table
+ 
+%em branch: Master
+.todo Localization: How to fix locales
+
+%em branch: Update_Users
+%ul
+  %li.done Install Paperclip for :avatar for users
+  %li.done generate change users migration :pitch, :website, :timezone,  
+  %li.done in views/users/_userform.html.haml, add timezone collection select
+  %li.done update rake init data, including timezone object - get timezones to work! Get faker to work
+  %li.done button on form for changing picture
+  %li.done user profile page
+  %li Users.index page: user JQuery table object to show all users and make them searchable/filterable
+  %li.done add a link to email user in index page
+  %li add cancan for role management --> need to set up translation pages
+  %li.done create Roles+Assignments tables
+  %li declarative authorizations using Roles Translator, Reviewer, Client, Proofreader, Endclient 
+  %li.done Timezone support
+  %li.done added expiry date to repo
+  %li.todo Edit translation is not working - Routing Error
+  %li.todo Add Edit inline with translation index (view all translations)
+  %li.todo Versioning on translations
+  %li.todo Versioning done >> CanCan for roles...
+
+
+
+
+
+%h1 branch: translate
+%h3 Part 1
+%em TMX/GDocs import
+%ul
+  %li Files: Tennrb needs to be finished to remove inner tags from parsed XML tags - 
+  %li= link_to 'Stackoverflow', "http://stackoverflow.com/questions/8623784/parsing-embedded-tags-in-ruby-xml-document-using-nokogiri-and-regex"
+  has the question for getting ahead on this
+  %li Add expiry_date and access_code to repo.
+  %li SourceDoc inherits from repo
+  %li Add views to Translate! 
+    %li Page 1: page File Input/Panel  
+    %li Page 2: itranslate page
+	%li Page 1: I watch u translate page
+	
+enter translation (document) in box
+TMX import
+GDocs document import
+create new job (interview site)
+generates 2 links
+http:...? +  id smc cmc
+2 pages
+itranslate
+iwatchutranslate
+
+
+
+
+%em branch: Translations
+%ul
+  %li Translation - multiselect form for Domains - fix so that domains are shown for speciic repo/translation
+  %li CanCan role based editing.... 	
+  %li 
+
+
+%h2 Update
+= Date.today
+Users Show page has collaborations (assignments). Each collaboration represents a user-repo-role combination. What matters is the User-Repo combination
+The roles will only apply when it comes to CanCan and what translations the user can edit in the repo (his own or all).
+Each assignment will generate a code. This code will be used to log in as that role.  
+User.show page will show profile plus roles user has per repo with a link to the repo. The translations are edited in the repo itself
+Need to fix User.index page - header skewed

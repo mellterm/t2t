@@ -1,8 +1,9 @@
 desc "Import translation data"
 task :import_translation_data  => :environment do
-  
+# run via $ rake import_translation_data  
   require 'nokogiri'
   require 'open-uri'
+  
   # spreadsheet data used to seed, also for dataimport function
   
   #  source_content     :string(255)     not null
@@ -17,21 +18,50 @@ task :import_translation_data  => :environment do
   #  last_updated_by    :integer
   #  isTerm             :boolean         default(TRUE)
   
-  
- #source language find id got name
-  #housekeeping
+
   Translation.delete_all
   TranslationDomain.delete_all
   
-  # global data for list
+  #represent all documents as a repo...
+  
+  # Table name: repos
+  #
+  #  id         :integer         not null, primary key
+  #  name       :string(255)
+  #  owner_id   :integer
+  #  created_at :datetime
+  #  updated_at :datetime
+  #
+
+  #srcdoc is a kind of repo with added fields...expires_on will be in repo.
+  srcdoc_meta = { 
+    :source_language_id => Language.find_by_ISOcode("de-de"), 
+    :domains => ["MECHENG", "ELECTRICAL" ],
+    :liveurl => "https://docs.google.com/document/pub?id=1Hcd4XO-JBAZ_3xkdwRnAsVwBkbbHeT6gzefAspygtb0",
+    :expires_on => Date.today + 1.month
+       
+       }
+  
+  
+  
   url2 = "https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0Anhry-cpGvzYdGRNMEtyWVphaEZQVGN3bWMxaF9aU0E&single=true&gid=0&output=html"
   
+
   
-  user_id = User.find_by_id(1)
-  listdomains = ["TECHDOCU", "MECHENG"]
-  listdomainids = []
-  Domain.find_all_by_code([listdomains]).each do |d|
-    listdomainids.push(d.id)
+  def processGSourceDoc(url)
+    f = File.open(url)
+    begin
+      
+      
+      
+      
+    rescue
+      puts "cannot open file, #{msg}"
+      
+    ensure
+      f.close    
+    end
+    
   end
   
   
@@ -44,7 +74,7 @@ task :import_translation_data  => :environment do
   target_language_id = Language.find_by_ISOcode(target_language.downcase).id
   
   #create repo then create translation thru repo
-  
+  @repos = Repo.all
   
   #not tr, tr[1], tr[2]
   nodecount = 0
@@ -54,24 +84,32 @@ task :import_translation_data  => :environment do
       srcnode = node.at_css("td[2]").content
       tarnode =  node.at_css("td[3]").content
       isPublic = node.at_css("td[4]").content.downcase
+      user_id = User.all.sort_by{ rand }.slice(0).id
       unless nodecount ==1 || srcnode.blank? || tarnode.blank?
         #takes out language info which is in same (the first) td
-        trans = Translation.create!(
-          :source_content => srcnode,
-          :target_content => tarnode,
-          :isPublic => isPublic,
-          :source_language_id => source_languge_id,
-          :target_language_id => target_language_id,
-          :repo_id => 1,
-          :created_by_id => 1,
-          :isTerm => true
-        )
-        #create translation domain pairs for global list domains
-        #TODO: add extra column like isPublic for extra domains
-        listdomainids.each do |d|
-          TranslationDomain.create!(:translation_id => trans.id, :domain_id => d)
+        @repos.each do |repo|
+            trans = Translation.create!(
+              :source_content => srcnode,
+              :target_content => tarnode,
+              :isPublic => isPublic,
+              :source_language_id => source_languge_id,
+              :target_language_id => target_language_id,
+              :repo_id => repo.id,
+              :created_by_id => user_id,
+              :isTerm => true
+            )
+            #create translation domain pairs for global list domains
+            #TODO: add extra column like isPublic for extra domains
+            listdomains_url2 = ["TECHDOCU", "ELECENG"]
+            listdomainids = []
+            Domain.find_all_by_code([listdomains_url2]).each do |d|
+              listdomainids.push(d.id)
+            end
+            
+            listdomainids.each do |d|
+              TranslationDomain.create!(:translation_id => trans.id, :domain_id => d)
+            end
         end
-        
       end
       #TODO: filter out blanks
     

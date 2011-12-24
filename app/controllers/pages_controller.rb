@@ -24,4 +24,7 @@ class PagesController < ApplicationController
     @title = "Data Import Page"
   end
     
+  def log
+    @title = "Log page"    
+    end  
 end

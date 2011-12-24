@@ -1,0 +1,42 @@
+.basics
+  %h1= t(:basic_information)
+  %p
+    = f.label :email, t(:email) 
+    %br/
+    = f.text_field :email
+    %p
+    = f.label :password, t(:password)
+    %br/
+    = f.password_field :password
+    %p
+    = f.label :password_confirmation, t(:password_confirmation)
+    %br/
+    = f.password_field :password_confirmation
+    %p
+    = f.label :preferred_language_id, t(:preferred_language)
+    %br/
+    %p
+    / reflanguage_id is the current page language and language_id is the language input for the select box
+    = f.select :preferred_language, LanguageI18n.where(:reflanguage_id => 1).collect{ |l| [l.name, l.language_id] }, { :include_blank => I18n.t(:choose_a_language)}
+  %h1= t(:profile) 	
+  %p
+    - if @user.avatar
+      = f.label :avatar, t(:change_photo)
+      = f.file_field :avatar
+      %br/
+      = t(:current_image)
+      = image_tag @user.avatar.url(:thumb)
+    %p	
+    = f.label :pitch, t(:sales_pitch) 
+    %br/
+    = f.text_area :pitch, :rows => 8, :cols => 24
+    %p	
+    = f.label :website, t(:website) 
+    %br/
+    = f.text_field :website
+    %p
+    = f.label :timezone, t(:timezone)
+    %br/
+    = f.time_zone_select(:timezone, ActiveSupport::TimeZone.all.sort, :model => ActiveSupport::TimeZone) 
+    %p
+  %p.button= f.submit

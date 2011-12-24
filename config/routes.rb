@@ -1,22 +1,26 @@
 T2t::Application.routes.draw do
   root :to => 'pages#welcome'
+  
   get "login" => "sessions#new", :as => "login"
   get "logout" => "sessions#destroy", :as => "logout"
   get "signup" => "users#new", :as => "signup"
   
   resources :users
+  resources :assignments
   
   resources :repos do 
     resources :translations
   end
   
-  resources :translations  
   resources :sessions
+
+  get "assignments/new"
+
+  match '/collaborate',  :to => 'assignments#new'
   
   
   match '/repos', :to => 'repo#index'
-  match '/translations', :to => 'translation#index'
-  
+  match '/repo/:id/translations', :to => 'translation#index'
 
   
   #makes urls look like this: www.example.com/en/users non locale display optional
@@ -36,6 +40,7 @@ T2t::Application.routes.draw do
   get "pages/contact"
   get "pages/report"
   get "pages/dataimport"
+  get "pages/log"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

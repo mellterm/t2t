@@ -1,0 +1,13 @@
+= form_for (@assignment) do |f|
+  - if @assignment.errors.any?
+    .error_messages
+      %h2= t(:form_is_invalid)
+      %ul
+        - for message in @assignment.errors.full_messages
+          %li= message
+  %p
+    - Role.all.each do |role|
+      = check_box_tag "assignment[role_ids][]", role.id, @assignment.role_id == role.id
+      = role.name
+      %br	
+  = submit_tag t(:create_assignment), :class => "button"

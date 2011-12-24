@@ -2,11 +2,12 @@ class TranslationsController < ApplicationController
     
     def index
        @repo= Repo.find(params[:repo_id])
-       @translations = @repo.translations.find_all{|item| item.source_content.present? || item.target_content.present?}
+       @translations = @repo.translations.find_all{|item| item.source_content.present? || item.target_content.present?}.paginate( :per_page => 50, :page => params[:page], :order => 'name')
     end
 
     def show
-      @translation = Translation.find(params[:id])
+      @repo = Repo.find(params[:repo_id])
+      @translation = @repo.translations.find(params[:id])
     end
 
     def new
@@ -14,8 +15,9 @@ class TranslationsController < ApplicationController
     end
 
     def create
-      #new translation, from repo page 
-      @translation = Translation.new(params[:translation])
+      #new translation, from repo page
+      @repo = Repo.find(params[:id]) 
+      @translation = @repo.translations.new(params[:translation])
    
       
       #what is the domain?
@@ -33,14 +35,17 @@ class TranslationsController < ApplicationController
     end
 
     def edit
-      @translation = translation.find(params[:id])
+      #can only edit 
+      @repo = Repo.find(params[:repo_id])
+      @translation = @repo.translations.find(params[:id])
     end
 
     def update
-      @translation = translation.find(params[:id])
+      @repo = Repo.find(params[:repo_id])
+      @translation = @repo.translations.find(params[:id])
       if @translation.update_attributes(params[:translation])
-        flash[:notice] = "Successfully updated translation."
-        redirect_to @translation
+        flash[:notice] = t(:successfully_updated_translation)
+        redirect_to translation_path(@translation)
       else
         render :action => 'edit'
       end
