@@ -3,37 +3,110 @@ task :import_translation_data  => :environment do
 # run via $ rake import_translation_data  
   require 'nokogiri'
   require 'open-uri'
-  
-  # spreadsheet data used to seed, also for dataimport function
-  
-  #  source_content     :string(255)     not null
-  #  source_language_id :integer         not null
-  #  target_content     :string(255)     not null
-  #  target_language_id :integer         not null
-  #  repo_id            :integer         not null
-  #  isPublic           :boolean         default(TRUE)
-  #  created_at         :datetime
-  #  updated_at         :datetime
-  #  created_by_id      :integer
-  #  last_updated_by    :integer
-  #  isTerm             :boolean         default(TRUE)
-  
 
+  clean_up_database
+  create_source_doc_from_TMX
+  create_term_list_from_Gdocs
+
+end  
+
+def clean_up_database
   Translation.delete_all
   TranslationDomain.delete_all
+end  
+
+
+def create_source_doc_from_TMX
+  # used for generating (access) token
+  # TODO: RUN Task on 10-15 memories, use code on translate! page, display segments as Jquery table for repo.
+ require 'rufus/mnemo'
   
-  #represent all documents as a repo...
+  eurotmx = "#{RAILS_ROOT}/test/8796_EUROS.tmx"
+  current_user_id = 1
+  now = Time.now
+  created_at = now
+  expires_on = now + 30.days
+  isPublic = true
   
+  #open file, get language info
+  f = File.open(eurotmx)
+  # representation of whole document
+  doc = Nokogiri::XML.parse(f)  
+  #get the languages
+  langs = doc.xpath('//tu/tuv/@xml:lang')
+  source_language, target_language = langs[0].value.sub(/-/, "_").downcase, langs[1].value.sub(/-/, "_").downcase
+  source_language_id = Language.find_by_ISOcode(source_language).id
+  target_language_id = Language.find_by_ISOcode(target_language).id
+  # use parent id as default
+  # source_parent_lang, target_parent_lang = langs[0].value.match(/(.*)[-_].*/)[0].downcase, langs[1].value.match(/(.*)[-_].*/)[0].downcase
+  
+  #domains will be input via form
+  docdomains = ["MECHENG", "ELECENG"]
+  listdomainids = []
+  Domain.find_all_by_code([docdomains]).each do |d|
+    listdomainids.push(d.id)
+  end
+  
+
+  #create memory<repo
+  #TODO: Memory like Repo but no content
+  #TODO: Make sure Languages contains all possible ISOcodes  
+  mem = Memory.create!(
+  :name => eurotmx,
+  :owner_id => 1,
+  :created_at => created_at,
+  :expires_on => expires_on,
+  :source_language_id => source_language_id,
+  :target_language_id => target_language_id, 
+  :token => Rufus::Mnemo::from_integer(rand(8**5))
+  )
+  
+  segcount = 0
+  segs = []
+  #get string pairs
+  doc.xpath("//tu/tuv/seg").each do |seg|
+    #FILO segs
+    segs.push(seg.children.reject {|x| x.element?}.join {|x| x.content}.squeeze(" ").strip)
+    if segs.size == 2
+      #time to create Translation
+      trans = Translation.create!(
+        :target_content => segs.pop,
+        :source_content => segs.pop,
+        :source_language_id => source_language_id,
+        :target_language_id => target_language_id,
+        :repo_id => mem.id,
+        :isPublic => isPublic,
+        :created_at => now,
+        :created_by_id => current_user_id,
+        :isTerm => false
+      )
+      listdomainids.each do |d|
+            TranslationDomain.create!(:translation_id => trans.id, :domain_id => d)
+      end  
+    end
+  end 
+end
+
+def create_term_list_from_Gdocs
+
+  # == Schema Information
+  #
   # Table name: repos
   #
-  #  id         :integer         not null, primary key
-  #  name       :string(255)
-  #  owner_id   :integer
-  #  created_at :datetime
-  #  updated_at :datetime
-  #
+  #  id                 :integer         not null, primary key
+  #  name               :string(255)
+  #  owner_id           :integer
+  #  created_at         :datetime
+  #  updated_at         :datetime
+  #  type               :string(255)
+  #  expires_on         :datetime
+  #  url                :string(255)
+  #  source_language_id :integer
+  #  target_language_id :integer
+  #  content            :text
+  #  token              :string(255)
 
-  #srcdoc is a kind of repo with added fields...expires_on will be in repo.
+  #srcdoc is a kind of repo with added fields
   srcdoc_meta = { 
     :source_language_id => Language.find_by_ISOcode("de-de"), 
     :domains => ["MECHENG", "ELECTRICAL" ],
@@ -44,28 +117,7 @@ task :import_translation_data  => :environment do
   
   
   
-  url2 = "https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0Anhry-cpGvzYdGRNMEtyWVphaEZQVGN3bWMxaF9aU0E&single=true&gid=0&output=html"
-  
-
-  
-  def processGSourceDoc(url)
-    f = File.open(url)
-    begin
-      
-      
-      
-      
-    rescue
-      puts "cannot open file, #{msg}"
-      
-    ensure
-      f.close    
-    end
-    
-  end
-  
-  
-  
+  url2 = "https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0Anhry-cpGvzYdGRNMEtyWVphaEZQVGN3bWMxaF9aU0E&single=true&gid=0&output=html"  
   @doc = Nokogiri::HTML(open(url2), 'UTF-8')
   headerinfo = @doc.at_css("html body div[2] table tr[2]")
   source_language = headerinfo.at_css("td[2]").content
@@ -112,10 +164,7 @@ task :import_translation_data  => :environment do
         end
       end
       #TODO: filter out blanks
-    
-    
-    
-    
+  
       # detail = {}
       # #filter out first three
       # unless [0,1,2].include?(nodecount)
@@ -130,4 +179,6 @@ task :import_translation_data  => :environment do
     end
     puts translationscount.count 
 end
+   
+   
    

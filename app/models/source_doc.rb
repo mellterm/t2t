@@ -1,9 +1,6 @@
-require 'spec_helper'
-
-describe Repo do
-  pending "add some examples to (or delete) #{__FILE__}"
-end
-
+class SourceDoc < Repo
+    attr_accessible :name, :owner_id, :expires_on, :source_language_id, :url, :target_language_id, :content, :token
+end  
 
 # == Schema Information
 #

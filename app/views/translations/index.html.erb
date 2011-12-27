@@ -1,4 +1,3 @@
-<% @title %>
-
-<%= render :partial => "shared/show_translations", :locals => {:translation => @translation, :repo => @repo} %>
+<!-- prepare for JQGrid	 -->
+<%= render :partial => "shared/show_new_translations", :locals => {:translation => @translation, :repo => @repo} %>
 <p><%= link_to "Back to Repo", repos_path(@repo) %></p>

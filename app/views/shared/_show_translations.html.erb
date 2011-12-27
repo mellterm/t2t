@@ -1,3 +1,8 @@
+<div id="term_feed_data">
+Repo name and type: <%= @repo.name %> | <%= @repo.type %> |
+Total number of translations <%= @repo.translations.count %>
+Last updated <%= @repo.translations.last.updated_at %>
+</div>
 <% if @translations.empty? %>
 	<h2> <%= t(:no_translations_in_the_database)  %></h2>
 <% else %>
@@ -7,7 +12,9 @@
 		
 	<% for trans in @translations %>
 	<!-- :TODO is public block -->
-
+		<% if trans.isTerm %>
+			<div class="termtranslation">
+	
 			<div class="translationbox">	
 				<span class="sourcecontent"><%= trans.source_content %> 
 					<span class="lang"><%= Language.find_by_id(trans.source_language_id).ISOcode unless trans.source_language_id.blank? %> </span><br />
@@ -25,6 +32,9 @@
 		<% end %>
 		<br />
 		<%= link_to t(:edit_translation), edit_repo_translation_path(@repo, trans) %> 
+
 	<% end %>
-			</div>	
+			</div>
+		</div>
+		<% end %> <!-- only display if type term -->
 <% end %>

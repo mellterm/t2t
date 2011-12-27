@@ -21,7 +21,7 @@ T2t::Application.routes.draw do
   
   match '/repos', :to => 'repo#index'
   match '/repo/:id/translations', :to => 'translation#index'
-
+  resources :source_docs
   
   #makes urls look like this: www.example.com/en/users non locale display optional
   # scope "(:locale)", :locale => /en|de|ru|zh|es/ do
@@ -34,14 +34,17 @@ T2t::Application.routes.draw do
   
   # match is a generic route use as to be able to access it via path or url
   match '/development', :to => 'pages#development'
-  match '/contact', :to => 'pages#contact'    
+  match '/contact', :to => 'pages#contact'
+  match '/translate', :to => 'pages#translate'    
   get "pages/welcome"
   get "pages/development"
   get "pages/contact"
   get "pages/report"
   get "pages/dataimport"
   get "pages/log"
-
+  get "pages/translate"
+  get "pages/itranslate"
+  get "pages/iwatchutranslate"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

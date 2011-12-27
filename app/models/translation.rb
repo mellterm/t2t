@@ -1,5 +1,5 @@
 class Translation < ActiveRecord::Base
-  attr_accessible :isPublic, :source_content, :target_content, :repo_id, :source_language_id, :target_language_id, :isTerm, :created_by_id
+  attr_accessible :isPublic, :source_content, :target_content, :repo_id, :source_language_id, :target_language_id, :isTerm, :created_by_id, :isPublic
   belongs_to :repo
   belongs_to :created_by, :class_name => "User"
   has_many :TranslationDomains

@@ -16,6 +16,7 @@ class ReposController < ApplicationController
   def new
     @title = "Create a New Repo"
     @repo =  Repo.new
+    
   end
   
   def create

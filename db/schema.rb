@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111223045251) do
+ActiveRecord::Schema.define(:version => 20111224143247) do
 
   create_table "assignments", :force => true do |t|
     t.integer  "user_id"
@@ -46,11 +46,25 @@ ActiveRecord::Schema.define(:version => 20111223045251) do
     t.integer "parent_id"
   end
 
+  create_table "repo_domains", :force => true do |t|
+    t.integer  "repo_id"
+    t.integer  "domain_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "repos", :force => true do |t|
     t.string   "name"
     t.integer  "owner_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "type"
+    t.datetime "expires_on"
+    t.string   "url"
+    t.integer  "source_language_id"
+    t.integer  "target_language_id"
+    t.text     "content"
+    t.string   "token"
   end
 
   add_index "repos", ["owner_id"], :name => "index_repos_on_owner_id"

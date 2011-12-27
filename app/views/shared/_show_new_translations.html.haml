@@ -1,0 +1,42 @@
+%table.zebra-striped#translation-table{ :cellspacing => "0"}
+  %colgroup
+    %col{:id => "source_content"}
+    %col{:id => "source_language"}
+    %col{:id => "target_content"}
+    %col{:id => "target_language"}
+    %col{:id => "last_updated_by"}
+    %col{:id => "created_by"}
+    %col{:id => "domains_head"}
+
+  %head
+    %tr
+      %th{:id => "source-content-head", :scope => "col"} Source Content
+      %th{:id => "source-language-head", :scope => "col"} Source Language
+      %th{:id => "target-content-head", :scope => "col"} Target Content
+      %th{:id => "target-language-head", :scope => "col"} Target Language
+      %th{:id => "last_updated_by-head", :scope => "col"} Last updated by
+      %th{:id => "created_by-head", :scope => "col"} Created by
+      %th{:id => "domains-head", :scope => "col"} Domains
+
+  %tbody
+    = will_paginate(@translations)
+    - for trans in @translations
+      - if trans.isTerm
+        %tr{:class => "zebra"}
+          %td
+            =h trans.source_content
+          %td
+            =h Language.find_by_id(trans.source_language_id).ISOcode unless trans.source_language_id.blank? 
+          %td
+            =h trans.target_content
+          %td
+            =h Language.find_by_id(trans.target_language_id).ISOcode unless trans.target_language_id.blank? 
+          %td
+            =h User.find_by_id(trans.last_updated_by).email unless trans.last_updated_by.blank?
+          %td
+            =h link_to "#{User.find_by_id(trans.created_by).name unless trans.created_by.blank?}", user_path(User.find_by_id(trans.created_by)) 
+          %td
+            - unless trans.domains.empty?
+              - for domain in trans.domains  
+                =h domain.code | 
+         

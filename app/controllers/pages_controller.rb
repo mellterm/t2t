@@ -26,5 +26,11 @@ class PagesController < ApplicationController
     
   def log
     @title = "Log page"    
+    end
+    
+  def translate
+      @title = "Translate!"
+ 
     end  
+      
 end

@@ -1,0 +1,38 @@
+<h1> Welcome to the Translate Page</h1>
+<em> Upload your document here or paste into the box</em>
+
+<h2>Upload File TMX or GDocs</h2>
+
+<h2>Paste into Box - Plain Text</h2>
+<em>It will be converted into segments</h2>
+<h3>First of all enter some information about your source doc</h3>
+<!-- TODO: change date format -->
+
+<!-- render partial from repo show view page -->
+What kind of document?<br/>
+<%= link_to t(:enter_text_directly), new_source_doc_path(:input_type => 'text') %>
+<br />
+<%= link_to t(:upload_a_document), new_source_doc_path(:input_type => 'file') %>
+
+
+owner id = current_user hidden fields
+domains?? TranslationDomain table
+add below to content above...
+
+
+<hr>
+<!-- <textarea id="code" cols="80" rows="20" onkeydown="textarea_onkeydown(event)"
+	onkeyup="writeCode(this.value)" style="font-family:monospace;"></textarea>
+<div id="status"></div> -->
+
+<p>Generate Translation Session
+	 </p>
+	
+<p>2 links:</p>
+<hr>
+<a href="/itranslate">Translator click here </a>
+<br />	
+<a href="/iwatchutranslate">Interviewer click here </a>	
+	
+	
+

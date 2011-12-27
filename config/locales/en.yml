@@ -54,3 +54,5 @@ en:
   choose_a_role: "Choose a role"
   create_assignment: "Create assignment"
   you_are_now_collaborating_on_this_repo: "You are now collaborating on this repo"
+  success: "Success!"
+  enter_a_name_for_the_source_document: "Enter a name for the source document"

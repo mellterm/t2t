@@ -13,6 +13,7 @@ gem 'ffaker'
 gem 'nokogiri'
 gem "paperclip", "~> 2.4"
 gem "cancan"
+gem "rufus-mnemo"
 
 group :development do
   gem 'rspec-rails', '2.6.1'

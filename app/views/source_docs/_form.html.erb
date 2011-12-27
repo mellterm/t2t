@@ -1,0 +1,24 @@
+<%= semantic_form_for @sourcedoc, :html => {:multipart => true} do |f| %>
+    <%= f.input :name, :hint => t(:enter_a_name_for_the_source_document) %>
+    <%= f.input :url %>
+	<%= f.input :expires_on, :as => :date %>
+	<%= f.input :source_language_id, :as => :select, :collection => Language.order('name ASC').all %>
+	<% if params[:input_type] == 'text' %>
+		<%= f.input :content, :input_html => {:cols => "80", :rows => "20", :style => 'color:blue;background:gray;'},  %>
+	<% end %>
+	<% if params[:input_type] == 'file' %>
+		<%= f.input :content, :as => :file %>
+	<% end %>
+	
+	<% @sourcedoc.domains.build %>
+	<%= f.fields_for :domain do |domain_form| %>
+	    <%= domain_form.label :name, "Domain:" %>
+	    <%= domain_form.input :name, :as => :select, :collection => Domain.order('code ASC').where(:name.nil?) %>
+	<% end %>
+	
+	<p>
+	<%= link_to 'Add a domain', '#domain', :class => "add_nested_item", :rel => "domains" %>
+	</p>
+		
+    <%= f.buttons :commit %>
+<% end %>

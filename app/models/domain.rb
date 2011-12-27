@@ -4,6 +4,10 @@ class Domain < ActiveRecord::Base
   has_many :TranslationDomains
   has_many :translations, :through =>:TranslationDomains
   
+  has_many :RepoDomains
+  has_many :repos, :through =>:RepoDomains
+  
+  
 end
 
 
