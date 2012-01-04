@@ -1,0 +1,2413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="SDL Language Platform" creationtoolversion="8.0" o-tmf="SDL TM8 Format" datatype="xml" segtype="sentence" adminlang="de-DE" srclang="de-DE" creationdate="20111229T042912Z" creationid="LenovoT400\Administrator">
+    <prop type="x-Recognizers">RecognizeAll</prop>
+    <prop type="x-TMName">SIMPSOFTMECH</prop>
+  </header>
+  <body>
+    <tu creationdate="20111229T043026Z" creationid="LenovoT400\Administrator" changedate="20111229T043026Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T043026Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>06.09.2011</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>06.09/2011</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T043030Z" creationid="LenovoT400\Administrator" changedate="20111229T043030Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T043614Z" usagecount="1">
+      <prop type="x-Context">2032081, 1954832224</prop>
+      <prop type="x-Context">2032081, 1878595680274</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Vers.:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Vers.:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T043030Z" creationid="LenovoT400\Administrator" changedate="20111229T043030Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T043615Z" usagecount="2">
+      <prop type="x-Context">3662112336, 118132661</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>1.0</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>1.0</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T043546Z" creationid="LenovoT400\Administrator" changedate="20111229T043546Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T043622Z" usagecount="2">
+      <prop type="x-Context">2032174, 2032174</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Betriebsanleitung Corning</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Corning Operating Manual</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T043553Z" creationid="LenovoT400\Administrator" changedate="20111229T043553Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T043851Z" usagecount="2">
+      <prop type="x-Context">6731131123579786827, 5496121181172362323</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>© REA Elektronik GmbH<ph x="1" type="40" /><ph x="2" type="41" /><ph x="3" type="42" />Seite <ph x="4" type="43" /> von</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>© REA Elektronik GmbH<ph x="1" type="40" /><ph x="2" type="41" /><ph x="3" type="42" />Page <ph x="4" type="43" /> of</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T043614Z" creationid="LenovoT400\Administrator" changedate="20111229T043614Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T043614Z">
+      <prop type="x-Context">7258173539212600824, 8974385551040034050</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>25.10.2011</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>25/10/2011</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T043853Z" creationid="LenovoT400\Administrator" changedate="20111229T043904Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T043904Z">
+      <prop type="x-Context">7258173539212600824, 8974385551040034050</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Betriebsanleitung</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Operating Manual</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T044307Z" creationid="LenovoT400\Administrator" changedate="20111229T044307Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T044309Z" usagecount="1">
+      <prop type="x-Context">-432527981239797573, 8138164104889455193</prop>
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Version 1.4 · Stand 25.10.2011</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Version 1.4 · Last updated 25/10/2011</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T044308Z" creationid="LenovoT400\Administrator" changedate="20111229T044308Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T044308Z">
+      <prop type="x-Context">-27575441607921975, 1337252822557428471</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Anlage zur Kennzeichnung von Keramiksubstraten</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Appendix: Identifying ceramic substrates</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T044424Z" creationid="LenovoT400\Administrator" changedate="20111229T044424Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T044515Z" usagecount="1">
+      <prop type="x-Context">964584066891374605, 8302803312352968586</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Diese Betriebsanleitung ist Bestandteil der Maschine und muss für das Bedienpersonal jederzeit zur Verfügung stehen.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>This operating manual is a part of the machine. Operating personnel must have access to it at all times.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T045050Z" creationid="LenovoT400\Administrator" changedate="20111229T045050Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T045050Z">
+      <prop type="x-Context">5348603125745964840, -3647735378134374278</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Die darin enthaltenen Sicherheitshinweise sind unbedingt zu beachten.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Always observe the safety instructions to be followed.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T045251Z" creationid="LenovoT400\Administrator" changedate="20111229T045251Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T045251Z">
+      <prop type="x-Context">-2009644278439698270, -3394776869360881240</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Die Vorgehensweisen, die in dieser Anleitung beschrieben sind, sind bei Arbeiten mit und an der Maschine einzuhalten.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Always follow the procedures described in this manual when working on, and operating the machine.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T045337Z" creationid="LenovoT400\Administrator" changedate="20111229T045337Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T045337Z">
+      <prop type="x-Context">1514416109052736260, -5043667293909449143</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Bei einem Weiterverkauf der Maschine ist die Betriebsanleitung immer mitzuliefern.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>This operating manual must be included with the machine when selling it to someone else.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T045339Z" creationid="LenovoT400\Administrator" changedate="20111229T045339Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T045339Z">
+      <prop type="x-Context">-7519406477181779768, -4141186875913381880</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>REA Elektronik GmbH</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>REA Elektronik GmbH</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T045340Z" creationid="LenovoT400\Administrator" changedate="20111229T045340Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T045340Z">
+      <prop type="x-Context">4810783391990720266, 4810783391990720266</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Teichwiesenstraße 1</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Teichwiesenstraße 1</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T045343Z" creationid="LenovoT400\Administrator" changedate="20111229T045343Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T045343Z">
+      <prop type="x-Context">-5142201052013954162, -3736215015942364759</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>64367 Mühltal</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>D-64367 Mühltal</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T045344Z" creationid="LenovoT400\Administrator" changedate="20111229T045344Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T045344Z">
+      <prop type="x-Context">1733226096914219927, -2551232600840486156</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Tel.:+49(0)6154/638-0</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Tel.:+49(0)6154/638-0</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T045351Z" creationid="LenovoT400\Administrator" changedate="20111229T045351Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T045351Z">
+      <prop type="x-Context">2798003939350444711, 2798003939350444711</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>©<ph x="1" type="317" /> 2011 REA Elektronik GmbH, alle Rechte vorbehalten</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>©<ph x="1" type="317" /> 2011 REA Elektronik GmbH, all rights reserved</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T045700Z" creationid="LenovoT400\Administrator" changedate="20111229T045700Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T045700Z">
+      <prop type="x-Context">-2314736720524050329, -5337927430113946039</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Ohne schriftliche Erlaubnis von REA Elektronik GmbH darf kein Teil dieses Dokuments in irgendeiner Form reproduziert oder mit elektronischen Systemen verarbeitet, vervielfältigt oder verbreitet werden.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>This document may not be reproduced, processed electronically, duplicated or published in any form without the written permission of REA Elektronik GmbH.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T050435Z" creationid="LenovoT400\Administrator" changedate="20111229T050435Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T050435Z">
+      <prop type="x-Context">-656761492544612409, -1418949655604468807</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Alle genannten und ggf. durch Dritte geschützten Marken- und Warenzeichen unterliegen uneingeschränkt den Bestimmungen des jeweils gültigen Kennzeichenrechts und den Besitzrechten der jeweiligen eingetragenen Eigentümer.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>All brand names and trademarks specified and protected by third parties are subject unreservedly to the provisions of the applicable trademark law and the property rights of the registered owners.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T050615Z" creationid="LenovoT400\Administrator" changedate="20111229T050813Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T050813Z">
+      <prop type="x-Context">2655423513659395901, -3190963902432406400</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Allein aufgrund der bloßen Nennung ist nicht der Schluss zu ziehen, dass Marken- und Warenzeichen nicht durch Rechte Dritter geschützt sind.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Simple reference to them should not lead to the conclusion that trademarks are not the intellectual property of third parties.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T050825Z" creationid="LenovoT400\Administrator" changedate="20111229T050825Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T050924Z" usagecount="1">
+      <prop type="x-Context">-9109257504090466946, -8391306074294935420</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Die Nennung erfolgt zum Zwecke der vollständigen Produktbeschreibung eines REA Produktes ohne an Marken -und Warenzeichen  Dritter Rechte geltend zu machen.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Reference is made to them for the purpose of providing a complete product description of a REA product without enforcing the brand names and trademarks of third parties.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T050943Z" creationid="LenovoT400\Administrator" changedate="20111229T050943Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T050943Z">
+      <prop type="x-Context">-8561829213349801927, 4569370298291540777</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Die in diesem Dokument enthaltenen Informationen können ohne vorherige Ankündigung geändert werden.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>The information contained in this document can be changed without advanced notice.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T050949Z" creationid="LenovoT400\Administrator" changedate="20111229T050949Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T050949Z">
+      <prop type="x-Context">2254037557714879555, 4796234159123553339</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Inhaltsverzeichnis</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Table of Contents</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T050952Z" creationid="LenovoT400\Administrator" changedate="20111229T050952Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T050952Z">
+      <prop type="x-Context">-5208617457820342283, 4370571453788000031</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Hinweise</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Notes</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T051043Z" creationid="LenovoT400\Administrator" changedate="20111229T051043Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T051043Z">
+      <prop type="x-Context">3370203769090048, 117904005</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Diese Bedienungsanleitung richtet sich an die Personen, die für die Montage, die Installation, sowie die Bedienung des Systems zuständig sind.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>This operating manual is intended for persons responsible for the assembly, installation and operation of the system.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T051139Z" creationid="LenovoT400\Administrator" changedate="20111229T051139Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T051139Z">
+      <prop type="x-Context">-7332290060152960748, -4731831471039710891</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Herausgegeben von der REA Elektronik GmbH, D-64367 Mühltal-Waschenbach.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Published by REA Elektronik GmbH, D-64367 Mühltal-Waschenbach, Germany.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T051144Z" creationid="LenovoT400\Administrator" changedate="20111229T051144Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T051144Z">
+      <prop type="x-Context">-5095893693004262273, -3021382899177814979</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Alle Rechte vorbehalten.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>All rights reserved.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T051255Z" creationid="LenovoT400\Administrator" changedate="20111229T051300Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T051300Z">
+      <prop type="x-Context">8633247587155152820, -286192755517527332</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Vervielfältigungen, auch auszugsweise, sind nur mit schriftlicher Genehmigung des Herausgebers gestattet.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Reproduction, including excerpts, only permitted with the publisher's written consent.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T051354Z" creationid="LenovoT400\Administrator" changedate="20111229T051354Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T051354Z">
+      <prop type="x-Context">2635913270599632298, 1946927532517840993</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>REA Elektronik übernimmt keine Verantwortung für Schäden, die aus diesen Angaben entstehen könnten.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>REA Elektronik is not responsible for damages which could result from this information.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T051325Z" creationid="LenovoT400\Administrator" changedate="20111229T051544Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T051544Z">
+      <prop type="x-Context">-3755216411058166746, 4242445861332932621</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Obwohl diese Dokumentation mit größter Sorgfalt erstellt wurde, können einige Angaben unrichtig sein und Fehler enthalten.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>This document has been produced with great care. Despite this, some information may be incorrect or contain errors.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T051612Z" creationid="LenovoT400\Administrator" changedate="20111229T051612Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T051612Z">
+      <prop type="x-Context">-922721565637826216, 1756810464909961456</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>REA Elektronik ist ständig bemüht, die Produkte zu verbessern und behält sich das Recht vor, auch die in diesem Dokument enthaltenen Angaben und Daten ohne vorherige Ankündigung zu ändern.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>REA Elektronik is continuously endeavoring to improve its products and reserves the right to change the data and specifications in this document without prior notice.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T051851Z" creationid="LenovoT400\Administrator" changedate="20111229T051851Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T051851Z">
+      <prop type="x-Context">-1117094446761907012, 1933531910007393453</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Funktionen, die in dieser Dokumentation beschrieben sind stellen keine "zugesicherten Eigenschaften dar, sondern dienen nur der Beschreibung.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Functions described in this document do not represent "assured properties", but are for descriptive purposes only.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T051959Z" creationid="LenovoT400\Administrator" changedate="20111229T051959Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T051959Z">
+      <prop type="x-Context">-277596567096805492, -4789504686980071459</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Zeichenerklärung</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Symbols</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052021Z" creationid="LenovoT400\Administrator" changedate="20111229T052021Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052021Z">
+      <prop type="x-Context">2557412929959383229, 3517194893800</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Informationen und Sicherheitshinweise werden in dieser technischen Dokumentation mit Symbolen gekennzeichnet.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Information and safety instructions are identified with symbols in this technical documentation.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052047Z" creationid="LenovoT400\Administrator" changedate="20111229T052047Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052047Z">
+      <prop type="x-Context">-179925213951166644, -563843783941475273</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Bedienungsanleitung<ph x="1" type="410" /><ph x="2" type="411" />Verweise auf Bedienungsanleitungen sind mit einem Buch gekennzeichnet.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Operating manual<ph x="1" type="410" /><ph x="2" type="411" />References to operating manuals are identified with a book symbol.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052105Z" creationid="LenovoT400\Administrator" changedate="20111229T052105Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052105Z">
+      <prop type="x-Context">7698036520279987805, -7671582792246104725</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Warnungen<ph x="1" type="430" /><ph x="2" type="431" />sind mit einem „STOP“- Schild gekennzeichnet.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Warnings<ph x="1" type="430" /><ph x="2" type="431" />are identified with a Stop sign.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052127Z" creationid="LenovoT400\Administrator" changedate="20111229T052127Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052127Z">
+      <prop type="x-Context">-2341503603715832883, 2877770904768259434</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Gefahrenhinweise<ph x="1" type="450" /><ph x="2" type="451" />sind mit einem Warndreieck gekennzeichnet.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Hazard information<ph x="1" type="450" /><ph x="2" type="451" />is identified with a warning triangle.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052144Z" creationid="LenovoT400\Administrator" changedate="20111229T052144Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052144Z">
+      <prop type="x-Context">7496608619839636575, 3509261702273329504</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Hinweis<ph x="1" type="470" /><ph x="2" type="471" />sind mit einer "Hand" gekennzeichnet.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Notes<ph x="1" type="470" /><ph x="2" type="471" />are identified with a hand symbol.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052209Z" creationid="LenovoT400\Administrator" changedate="20111229T052209Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052209Z">
+      <prop type="x-Context">-1120027580273412883, -3631485221937769659</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Gefahren durch elektrischen Strom<ph x="1" type="490" /><ph x="2" type="491" />sind mit nebenstehendem Symbol gekennzeichnet.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Electrical hazards<ph x="1" type="490" /><ph x="2" type="491" />are identified with the adjacent symbol.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052226Z" creationid="LenovoT400\Administrator" changedate="20111229T052226Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052226Z">
+      <prop type="x-Context">-6258078951302362295, -1792129023863366347</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Quetschgefahren<ph x="1" type="510" /><ph x="2" type="511" />sind mit nebenstehendem Symbol gekennzeichnet.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Crushing hazards<ph x="1" type="510" /><ph x="2" type="511" />are identified with the adjacent symbol.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052301Z" creationid="LenovoT400\Administrator" changedate="20111229T052453Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052453Z">
+      <prop type="x-Context">1145842987015930368, -1990270007979096528</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Laser Klasse 4<ph x="1" type="528" /><ph x="2" type="529" />Die zugängliche Laserstrahlung ist sehr gefährlich für das Auge und gefährlich für die Haut.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Laser Class 4<ph x="1" type="528" /><ph x="2" type="529" />Laser radiation is very dangerous for the eyes and for the skin.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052454Z" creationid="LenovoT400\Administrator" changedate="20111229T052454Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052454Z">
+      <prop type="x-Context">5042385445113785743, 1243290070519436422</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Auch diffus gestreute Strahlung kann gefährlich sein.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Scattered radiation can be dangerous too.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052604Z" creationid="LenovoT400\Administrator" changedate="20111229T052604Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052604Z">
+      <prop type="x-Context">3466828644714793822, 7272782076866126403</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Die Laserstrahlung kann Brand- und Explosionsgefahr<ph x="1" type="530" /> <ph x="2" type="531" />verursachen.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Laser radiation can produce a risk of fire and explosion<ph x="1" type="530" /> <ph x="2" type="531" />.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052630Z" creationid="LenovoT400\Administrator" changedate="20111229T052630Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052630Z">
+      <prop type="x-Context">-4237271677736137990, -1117256429609465822</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Information<ph x="1" type="550" /><ph x="2" type="551" />Dieses Symbol verweist auf Hinweise und Anwendungstips.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Information<ph x="1" type="550" /><ph x="2" type="551" />This symbol makes reference to notes and suggested usage.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052639Z" creationid="LenovoT400\Administrator" changedate="20111229T052639Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052639Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Konformitätserklärung</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Declaration of conformity</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052705Z" creationid="LenovoT400\Administrator" changedate="20111229T052705Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T053206Z" usagecount="1">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Context">8324137524663866951, -627451493119469957</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Hiermit erklären wir, dass die Bauart von</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>We hereby declare that this model of</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052708Z" creationid="LenovoT400\Administrator" changedate="20111229T052708Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T053207Z" usagecount="1">
+      <prop type="x-Context">9124221788868880082, -7584615245722881077</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Benennung<ph x="1" type="591" />:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Name<ph x="1" type="591" />:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052913Z" creationid="LenovoT400\Administrator" changedate="20111229T052913Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052913Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Benennung</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Name</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052915Z" creationid="LenovoT400\Administrator" changedate="20111229T052915Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052915Z">
+      <prop type="x-Context">112952766468, 117890334</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Typen:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Types:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052917Z" creationid="LenovoT400\Administrator" changedate="20111229T052917Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052917Z">
+      <prop type="x-Context">113486621188, 118092237</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DMC</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DMC</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052924Z" creationid="LenovoT400\Administrator" changedate="20111229T052924Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052933Z" usagecount="2">
+      <prop type="x-Context">117603646, 117603646</prop>
+      <prop type="x-Context">20857732985792277, 20857732985792277</prop>
+      <prop type="x-Context">5757501172368337301, 5441806595173462590</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Anlagen-, Masch.-Nr.:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Plant, Machine No.:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052925Z" creationid="LenovoT400\Administrator" changedate="20111229T052925Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052925Z">
+      <prop type="x-Context">7265408838413586881, 8990278769464754144</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>18011-06 (Kaiserslautern)</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>18011-06 (Kaiserslautern)</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052932Z" creationid="LenovoT400\Administrator" changedate="20111229T052932Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052932Z">
+      <prop type="x-Context">7265408838413586881, 8990278769464754144</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>LDS Barcoder (Südafrika)</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>LDS Barcoder (South Africa)</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052934Z" creationid="LenovoT400\Administrator" changedate="20111229T052934Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052934Z">
+      <prop type="x-Context">7265408838413586881, 8990278769464754144</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>72606 (USA)</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>72606 (USA)</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T052948Z" creationid="LenovoT400\Administrator" changedate="20111229T052948Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T052948Z">
+      <prop type="x-Context">8675163751453816592, 7291855420541419885</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>im Sinne der</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>within the meaning of</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T053107Z" creationid="LenovoT400\Administrator" changedate="20111229T053107Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T053107Z">
+      <prop type="x-Context">3239703042996651275, -5256688800935655954</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>–	EG-Richtlinie Maschinen 2006/42/EG</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>–	EC Machinery Directive 2006/42/EC</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T053205Z" creationid="LenovoT400\Administrator" changedate="20111229T053205Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T053205Z">
+      <prop type="x-Context">1137095873526470347, -627451493119469957</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>–	EG-Richtlinie EMV 2004/108/EG</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>–	EC Machinery Directive 2004/108/EC</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T053814Z" creationid="LenovoT400\Administrator" changedate="20111229T053814Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T053814Z">
+      <prop type="x-Context">112952766468, 117890334</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Laserbeschriftungsrundtischanlage für Keramiksubstrat</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Laser engraving rotating unit for ceramic substrate</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T053819Z" creationid="LenovoT400\Administrator" changedate="20111229T053819Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T053819Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>60-014 (China)</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>60-014 (China)</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T053857Z" creationid="LenovoT400\Administrator" changedate="20111229T053857Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T053857Z">
+      <prop type="x-Context">1734920797470985573, 55965187015193106</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>in der gelieferten Ausführung den obigen Bestimmungen und den unten aufgeführten DIN EN<ph x="1" type="656" />–<ph x="2" type="657" />Normen entspricht.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>satisfied the above provisions and the DIN EN<ph x="1" type="656" /><ph x="2" type="657" />Norms below.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T053901Z" creationid="LenovoT400\Administrator" changedate="20111229T053901Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073655Z" usagecount="2">
+      <prop type="x-Context">-8292607228820406140, -7981446255377734206</prop>
+      <prop type="x-Context">-8292607228820406140, 8320721754572262529</prop>
+      <prop type="x-Context">-2865316320648261597, -8931631362413201919</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Richtlinie / Norm</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Guideline/Norm</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T053905Z" creationid="LenovoT400\Administrator" changedate="20111229T053905Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073655Z" usagecount="2">
+      <prop type="x-Context">-8449315279019182763, -5507105375115755755</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Titel</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Title</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T053906Z" creationid="LenovoT400\Administrator" changedate="20111229T053906Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T053931Z" usagecount="1">
+      <prop type="x-Context">113471963954, 3660386163</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 62079	:2001</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 62079	:2001</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T054005Z" creationid="LenovoT400\Administrator" changedate="20111229T054005Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073707Z" usagecount="2">
+      <prop type="x-Context">3235487448499328488, 3235487448499328488</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Erstellen von Anleitungen; Gliederungen, Inhalt und Darstellung</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Preparation of instructions - Structuring, content and presentation</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T054009Z" creationid="LenovoT400\Administrator" changedate="20111229T054009Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T083837Z" usagecount="3">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Context">-30683649651025399, 400756548945811547</prop>
+      <prop type="x-Context">6052476881839048953, -8705986030551460943</prop>
+      <prop type="x-Context">8035463734063432945, 8877535509181853097</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>2006/42/EG</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>2006/42/EC</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T054150Z" creationid="LenovoT400\Administrator" changedate="20111229T054150Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T083840Z" usagecount="9">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Context">58236406885562, 58236406885438</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>EG-Richtlinie:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>EC Guideline:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T061312Z" creationid="LenovoT400\Administrator" changedate="20111229T061312Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T061312Z">
+      <prop type="x-Context">6904563593845101208, 8087233864228429221</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Maschine	<ph x="1" type="715" /><ph x="2" type="716" />gültig ab 29.12.2009</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Machine	<ph x="1" type="715" /><ph x="2" type="716" />valid from 29/12/2009</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T061315Z" creationid="LenovoT400\Administrator" changedate="20111229T061315Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T061403Z" usagecount="1">
+      <prop type="x-Context">-236732466885758900, -8547685671782765306</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 12100-1, -2<ph x="1" type="725" /><ph x="2" type="726" /><ph x="3" type="727" />:2003	+ A1:2009</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 12100-1, -2<ph x="1" type="725" /><ph x="2" type="726" /><ph x="3" type="727" />:2003	+ A1:2009</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T061427Z" creationid="LenovoT400\Administrator" changedate="20111229T061427Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T061427Z">
+      <prop type="x-Context">7898908338013221106, 7898908338013221106</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen – Grundbegriffe, Allgemeine Gestaltungsleitsätze – Teil 1:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Basic concepts, general principles for design - Part 1:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T061447Z" creationid="LenovoT400\Administrator" changedate="20111229T061447Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T061447Z">
+      <prop type="x-Context">7077596368249656233, -1001495485884639734</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Grundsätzliche Terminologie, Methodik,<ph x="1" type="733" />– Teil 2:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Basic terminology, methodology,<ph x="1" type="733" />– Part 2:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T061623Z" creationid="LenovoT400\Administrator" changedate="20111229T061623Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082248Z" usagecount="1">
+      <prop type="x-Context">-3812600427942842079, 5767095478579545926</prop>
+      <prop type="x-Context">1870976922153808194, -1001495485884639734</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Technische Leitsätze und Spezifikationen</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Technical principles and specifications</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T061626Z" creationid="LenovoT400\Administrator" changedate="20111229T061626Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T061626Z">
+      <prop type="x-Context">-6866420969508177999, 1129964888068495446</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 349<ph x="1" type="741" /><ph x="2" type="742" /><ph x="3" type="743" />:1993	+A1:2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 349<ph x="1" type="741" /><ph x="2" type="742" /><ph x="3" type="743" />:1993	+A1:2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T061927Z" creationid="LenovoT400\Administrator" changedate="20111229T061927Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T061927Z">
+      <prop type="x-Context">3266715760488876886, 3266715760488876886</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen; Mindestabstände zur Vermeidung des Quetschens von Körperteilen</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Minimum gaps to avoid crushing of parts of the human body</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T061929Z" creationid="LenovoT400\Administrator" changedate="20111229T061929Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062130Z" usagecount="1">
+      <prop type="x-Context">5207007389703212802, 3250751639582227264</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 13857<ph x="1" type="758" /><ph x="2" type="759" /><ph x="3" type="760" />:2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 13857<ph x="1" type="758" /><ph x="2" type="759" /><ph x="3" type="760" />:2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062130Z" creationid="LenovoT400\Administrator" changedate="20111229T062130Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062130Z">
+      <prop type="x-Context">3235487448499328488, 3235487448499328488</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen – Sicherheitsabstände gegen das Erreichen von Gefährdungsbereichen mit den oberen und unteren Gliedmaßen</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Safety distances to prevent hazard zones being reached by upper and lower limbs</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062138Z" creationid="LenovoT400\Administrator" changedate="20111229T062138Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062138Z">
+      <prop type="x-Context">-8855604512215118691, 6166123221455386606</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 1037<ph x="1" type="773" /><ph x="2" type="774" /><ph x="3" type="775" />:1995	+ A1:2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 1037<ph x="1" type="773" /><ph x="2" type="774" /><ph x="3" type="775" />:1995	+ A1:2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062307Z" creationid="LenovoT400\Administrator" changedate="20111229T062307Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062307Z">
+      <prop type="x-Context">3266715760488876886, 3266715760488876886</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen – Vermeidung von unerwartetem Anlauf</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Prevention of unexpected start-up</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062310Z" creationid="LenovoT400\Administrator" changedate="20111229T062310Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062310Z">
+      <prop type="x-Context">-8287053057799088273, 8528360803213298873</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN ISO 13850<ph x="1" type="790" /><ph x="2" type="791" /><ph x="3" type="792" />:2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN ISO 13850<ph x="1" type="790" /><ph x="2" type="791" /><ph x="3" type="792" />:2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062328Z" creationid="LenovoT400\Administrator" changedate="20111229T062328Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062328Z">
+      <prop type="x-Context">103681353653078271, 103681353653078271</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen – Not Halt, Gestaltungsleitsätze</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Emergency stop, design principles</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062329Z" creationid="LenovoT400\Administrator" changedate="20111229T062329Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062329Z">
+      <prop type="x-Context">-6403210596860374538, 8346230672178299568</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN ISO 13849-1, -2<ph x="1" type="805" /><ph x="2" type="806" /><ph x="3" type="807" />:2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN ISO 13849-1, -2<ph x="1" type="805" /><ph x="2" type="806" /><ph x="3" type="807" />:2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062507Z" creationid="LenovoT400\Administrator" changedate="20111229T062507Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062507Z">
+      <prop type="x-Context">-5141079579944210845, -5141079579944210845</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen – Sicherheitsbezogene Teile von Steuerungen <ph x="1" type="813" />– Teil 1:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Safety-related parts of control systems <ph x="1" type="813" />- Part 1:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062529Z" creationid="LenovoT400\Administrator" changedate="20111229T062529Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062529Z">
+      <prop type="x-Context">4367917141869360582, -828637956879557423</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Allgemeine Gestaltungsleitsätze, – Teil 2:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>General design principles, – Part 2:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062540Z" creationid="LenovoT400\Administrator" changedate="20111229T062540Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084409Z" usagecount="1">
+      <prop type="x-Context">-3405308796802190168, -331122246828196307</prop>
+      <prop type="x-Context">5426969588244937184, -828637956879557423</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Validierung</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Validation</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062541Z" creationid="LenovoT400\Administrator" changedate="20111229T062541Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062541Z">
+      <prop type="x-Context">8517116919047321636, 3250027009061806375</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN ISO 14121-1<ph x="1" type="821" /><ph x="2" type="822" /><ph x="3" type="823" />:2007</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN ISO 14121-1<ph x="1" type="821" /><ph x="2" type="822" /><ph x="3" type="823" />:2007</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062549Z" creationid="LenovoT400\Administrator" changedate="20111229T062549Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062549Z">
+      <prop type="x-Context">7404060492062373361, 7404060492062373361</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen – Risikobeurteilung – Teil 1:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Risk assessment- Part 1:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062601Z" creationid="LenovoT400\Administrator" changedate="20111229T062601Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084419Z" usagecount="1">
+      <prop type="x-Context">318126512412893620, 1516867401218635194</prop>
+      <prop type="x-Context">4572486819838516456, 1516867401218635194</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Leitsätze</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Principles</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062635Z" creationid="LenovoT400\Administrator" changedate="20111229T062635Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062635Z">
+      <prop type="x-Context">104578523934172139, 3377269813886103</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 60204-1<ph x="1" type="835" />:2006</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 60204-1<ph x="1" type="835" />:2006</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062929Z" creationid="LenovoT400\Administrator" changedate="20111229T062929Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062929Z">
+      <prop type="x-Context">-8196310449057633126, -8196310449057633126</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen; Elektrische Ausrüstung von Maschinen – <ph x="1" type="840" />Teil 1:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Electrical equipment of machines -  <ph x="1" type="840" />Part 1:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062934Z" creationid="LenovoT400\Administrator" changedate="20111229T062934Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062934Z">
+      <prop type="x-Context">-5259574833446774911, 1540805694839082821</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Allgemeine Anforderungen</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>General requirements</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T062945Z" creationid="LenovoT400\Administrator" changedate="20111229T062945Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T062945Z">
+      <prop type="x-Context">6904563593845101208, 8087233864228429221</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>EMV	<ph x="1" type="870" /><ph x="2" type="871" />gültig ab 20.07.2007</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>EMC	<ph x="1" type="870" /><ph x="2" type="871" />valid from 20/07/2007</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T063229Z" creationid="LenovoT400\Administrator" changedate="20111229T063229Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T063229Z">
+      <prop type="x-Context">-790309226577115246, 2199941118489033003</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Elektromagnetische Verträglichkeit, Störaussendung – Industriebereich</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Electromagnetic conformity, emission standard for industrial environments</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T063435Z" creationid="LenovoT400\Administrator" changedate="20111229T063435Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T063435Z">
+      <prop type="x-Context">6794543009532253643, -7828868678270584477</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Elektromagnetische Verträglichkeit, Störfestigkeit – Industriebereich</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Electromagnetic compatibility, emission standard for industrial environments</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T064530Z" creationid="LenovoT400\Administrator" changedate="20111229T064530Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T064530Z">
+      <prop type="x-Context">6538312225609671907, 400756548945811547</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Diese Erklärung bezieht sich nur auf die Maschine in dem Zustand, in dem sie in Verkehr gebracht wurde.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>This declaration only relates to the machine in the state in which it was brought to market.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T064820Z" creationid="LenovoT400\Administrator" changedate="20111229T064820Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T064820Z">
+      <prop type="x-Context">3725798482035973183, -2785837405621635520</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Die speziellen technischen Unterlagen gemäß Anhang VII A wurden erstellt und sie werden der zu&#x1F;ständigen nationalen Behörde auf Verlangen in elektronischer Form übermittelt.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>These special technical documents as per Appendix VII A have been created and are passed onto the responsible national authorities in electronic form upon request.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T064902Z" creationid="LenovoT400\Administrator" changedate="20111229T064908Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T064908Z">
+      <prop type="x-Context">3398434026766749543, -6499666778973603831</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Bevollmächtigte Person für die Zusammenstellung der technischen Unterlagen:<ph x="1" type="911" /><ph x="2" type="912" /><ph x="3" type="913" />Name:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Authorized person for compiling technical documents:<ph x="1" type="911" /><ph x="2" type="912" /><ph x="3" type="913" />Name:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T064924Z" creationid="LenovoT400\Administrator" changedate="20111229T064924Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T064924Z">
+      <prop type="x-Context">7904683512066985483, -1989446419907276272</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Hr. Rainer Wiefelspütz<ph x="1" type="915" />	Anschrift:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Mr. Rainer Wiefelspütz<ph x="1" type="915" />	Address:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T064937Z" creationid="LenovoT400\Administrator" changedate="20111229T064937Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T064937Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Mühltal, den 28<ph x="1" type="926" />.<ph x="2" type="927" />09.2011	……...................................................................................</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Mühltal, 28th<ph x="1" type="926" />/<ph x="2" type="927" />09/2011	……...................................................................................</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T064950Z" creationid="LenovoT400\Administrator" changedate="20111229T064950Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T064950Z">
+      <prop type="x-Context">8611166066948160088, 8691687110497220129</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Michael Neuschäfer, Geschäftsführer</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Michael Neuschäfer, CEO</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T065046Z" creationid="LenovoT400\Administrator" changedate="20111229T065046Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T065046Z">
+      <prop type="x-Context">-2632163006189829257, -7624421797546685381</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Unterschrift Geschäftsverantwortlicher (Funktion, Titel)</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Signature of executive (function, title)</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T065134Z" creationid="LenovoT400\Administrator" changedate="20111229T065134Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T065134Z">
+      <prop type="x-Context">404373415984305788, 6399094269857777412</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Anforderungen an das Bedien- und Fachpersonal</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Requirements for operating- and service personnel</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T065133Z" creationid="LenovoT400\Administrator" changedate="20111229T065236Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T065236Z">
+      <prop type="x-Context">1227919582542692022, -334878626198896136</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Bedien- und Fachpersonal</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Operating personnel and technicians</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T065355Z" creationid="LenovoT400\Administrator" changedate="20111229T065413Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T065413Z">
+      <prop type="x-Context">7555501795521450717, 4649759656585542128</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Arbeiten an und mit diesem Produkt dürfen nur von Fachkräften vorgenommen werden, die den Inhalt dieses Handbuches und alle zum Produkt gehörenden Unterlagen kennen und verstehen.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Work on and with this product may only be performed by technicians who are familiar with, and understand the content of this manual and all the documents pertaining to the product.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T065603Z" creationid="LenovoT400\Administrator" changedate="20111229T065603Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T065603Z">
+      <prop type="x-Context">-4978454887211206788, -5845368201352172345</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Weiterhin müssen diese Fachkräfte eine Sicherheitsunterweisung erhalten haben, um die entsprechenden Gefahren zu erkennen und zu vermeiden.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>These technicians have been given a safety briefing to identify and avoid the corresponding risks.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T065802Z" creationid="LenovoT400\Administrator" changedate="20111229T065802Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T065802Z">
+      <prop type="x-Context">7891162199819078521, -3847742307678739248</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Die Fachkräfte müssen aufgrund ihrer fachlichen Ausbildung sowie ihrer Kenntnisse und Erfahrungen in der Lage sein, mögliche Gefahren vorherzusehen und zu erkennen, welch durch Einsatz des Produktes, durch Änderung der Einstellungen sowie durch mechanische, elektrische und elektronische Ausrüstung der Gesamtanlage entstehen können.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Based on their specialist training and their knowledge and experience, these technicians must be in the position to predict and identify potential risks which might arise though the use of the product, through changes being made to settings, as well as mechanical, electrical and electronic equipment of the complete unit.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T070208Z" creationid="LenovoT400\Administrator" changedate="20111229T070208Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T070208Z">
+      <prop type="x-Context">2754523115327710904, 1225299403511175491</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Den Fachkräften müssen alle geltenden Normen, Bestimmungen und Unfall&#x1F;verhütungsvorschriften, die bei Arbeiten am und mit dem Produkt beachtet werden müssen, bekannt sein.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>The specialists must be familiar with all valid norms, provisions and accident prevention regulations which must be taken into account when working on and with the product.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T070246Z" creationid="LenovoT400\Administrator" changedate="20111229T070253Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T070253Z">
+      <prop type="x-Context">-679618207009228972, -561236484089028718</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Die Installation, Inbetriebnahme und der Betrieb des Geräts darf nur von qualifiziertem Personal vorgenommen werden.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>The installation, start-up and operating of the unit may only be performed by qualified personnel.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T070527Z" creationid="LenovoT400\Administrator" changedate="20111229T070527Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T070527Z">
+      <prop type="x-Context">-3860469079821487119, -807738849345023918</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Das Servicepersonal das mit den Arbeiten betraut ist, ist über mögliche Gefährdungen, die mit den Arbeiten in Verbindung stehen, unterrichtet.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>The service personnel who is familiar with the work has been briefed about the potential risks associated with the work.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T070534Z" creationid="LenovoT400\Administrator" changedate="20111229T070534Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T070534Z">
+      <prop type="x-Context">-5147848100211599874, 5491666749920505068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>1.4.1 Bedien- und Fachpersonalpersonal</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>1.4.1 Operating personnel and technicians</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T070539Z" creationid="LenovoT400\Administrator" changedate="20111229T070539Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T070539Z">
+      <prop type="x-Context">-1250694051637786848, 3952717425587798332</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Bedienpersonal</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Operating personnel</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T070739Z" creationid="LenovoT400\Administrator" changedate="20111229T071418Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T071418Z">
+      <prop type="x-Context">3499704962438779567, -6868279565171491525</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Bedienpersonal sind Personen, die zum Rüsten, Betreiben und Reinigen der Maschine sowie zur Störungsbeseitigung zuständig sind.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Operating personnel are persons with responsibility for equipping, operating and cleaning the machine, as well as troubleshooting.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T071420Z" creationid="LenovoT400\Administrator" changedate="20111229T071420Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T071435Z" usagecount="1">
+      <prop type="x-Context">8912068682528318981, 6222998208473805787</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Das Bedienpersonal wird durch eine Fachkraft über die ihr übertragenen Aufgaben und die möglichen Gefahren bei unsachgemäßem Verhalten unterrichtet und erforderlichenfalls angelernt sowie über die notwendigen Schutzeinrichtungen und Schutzmaßnahmen belehrt.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Operating personnel have been briefed by a technician about the tasks assigned to them and the potential hazards caused by improper use, have been trained where necessary, and have been informed about the necessary protective equipment and measures.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T071653Z" creationid="LenovoT400\Administrator" changedate="20111229T071653Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T071653Z">
+      <prop type="x-Context">-1388506835170593371, -3422424583827460590</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>- bei allen Arbeiten die in der Betriebsanleitung angegebenen Sicherheitshinweise zu beachten</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>- follow the safety instructions in the operating manual for all work</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T071731Z" creationid="LenovoT400\Administrator" changedate="20111229T071731Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T071731Z">
+      <prop type="x-Context">6337581337100257596, 2245531628717202605</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>- jede Arbeitsweise, die die Sicherheit an der Maschine beeinträchtigt, zu unterlassen</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>- refrain from any work instruction which impair the safety on the machine</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T072145Z" creationid="LenovoT400\Administrator" changedate="20111229T072145Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T072145Z">
+      <prop type="x-Context">-8199402174426235918, -3975303271938182771</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>- eng anliegende Kleidung zu tragen sowie das Tragen von Schmuck, wie z.B. Ketten und Ringe zu unterlassen</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>- wear tight-fitting clothing and to refrain from wearing jewelry, such as chains and rings</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T072221Z" creationid="LenovoT400\Administrator" changedate="20111229T072221Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T072221Z">
+      <prop type="x-Context">-1178807989929190451, 8279521260478580867</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>- mit dafür zu sorgen, dass nur autorisierte Personen an der Maschine arbeiten</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>- help ensure that only authorized persons work on the machine</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T072349Z" creationid="LenovoT400\Administrator" changedate="20111229T072349Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T072349Z">
+      <prop type="x-Context">-5896506106275929133, -6290145695402714182</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>- eingetretene Veränderungen an der Maschine, welche die Sicherheit beeinträchtigen, sofort dem Betreiber zu melden</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>- to immediately notify the operator when there are changes to the machine that impair safety.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T071506Z" creationid="LenovoT400\Administrator" changedate="20111229T072409Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T072409Z">
+      <prop type="x-Context">507037544198236502, -4727210631931930396</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Das Bedienpersonal ist verpflichtet, folgende Punkte zu beachten und hat:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Operating personnel must observe the following points and must:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T072506Z" creationid="LenovoT400\Administrator" changedate="20111229T072506Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T072506Z">
+      <prop type="x-Context">3325921494142293285, -1151005914146731436</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Fachpersonal</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Technician</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T072659Z" creationid="LenovoT400\Administrator" changedate="20111229T072659Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T072716Z" usagecount="1">
+      <prop type="x-Context">-6833790040085913376, 3248485816532893084</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Fachpersonal sind Personen, die aufgrund ihrer fachlichen Ausbildung, Kenntnisse und Erfahrungen sowie Kenntnis der einschlägigen Normen die ihnen übertragenen Arbeiten beurteilen und mögliche Gefahren erkennen können.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Technicians are persons whose specialist training, knowledge and experience allow them to assess the work assigned to them, and can recognize potential risks.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T072741Z" creationid="LenovoT400\Administrator" changedate="20111229T072741Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T072741Z">
+      <prop type="x-Context">-8007924346365848380, -6352807065429916301</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sie sind zuständig für das Schmieren, Warten, Reparieren und Justieren der Maschine.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>They are responsible for lubrication, maintenance, repairing and adjustment of the machine.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T072756Z" creationid="LenovoT400\Administrator" changedate="20111229T072756Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T072756Z">
+      <prop type="x-Context">4132308911373886652, -5547782418283255879</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Das Fachpersonal ist verpflichtet, folgende Punkte zu beachten:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Technicians must observe the following points:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T072859Z" creationid="LenovoT400\Administrator" changedate="20111229T072859Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T072859Z">
+      <prop type="x-Context">515448685607669154, -677075521333132048</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>- Bei allen Arbeiten sind die in der Betriebsanleitung angegebenen Sicherheitshinweise zu beachten.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>- follow the safety instructions in the operating manual for all work.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073040Z" creationid="LenovoT400\Administrator" changedate="20111229T073040Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073200Z" usagecount="1">
+      <prop type="x-Context">-5736627649164964908, 2245531628717202605</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>- Vor Beginn von Wartungsarbeiten muss der Hauptschalter ausgeschaltet und gegen Wiedereinschalten gesichert werden.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>- Before beginning maintenance work, the main switch must be switched off and protected against accidental switch-on.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073241Z" creationid="LenovoT400\Administrator" changedate="20111229T073241Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073241Z">
+      <prop type="x-Context">-1463594513868518462, -8835697451496483040</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>- Arbeiten an unter Spannung stehenden Teilen und Einrichtungen sind nicht zulässig.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>- Working on parts and equipment while live is not permitted.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073535Z" creationid="LenovoT400\Administrator" changedate="20111229T073538Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073538Z">
+      <prop type="x-Context">-6536057223890616320, 9188304480207525937</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Ausnahmen regeln die Vorschriften EN 50110.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Exceptions are governed by the EN 50110 regulations.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073624Z" creationid="LenovoT400\Administrator" changedate="20111229T073624Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073624Z">
+      <prop type="x-Context">-220413306693267647, 808650888994483141</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>- Nach Reparatur- und Wartungsarbeiten müssen die Schutzabdeckungen angebracht und der elektrische Schaltschrank verschlossen werden.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>- After repair and maintenance work has been carried out, the protective covers must be attached and sealed via the electrical switch cabinet.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073631Z" creationid="LenovoT400\Administrator" changedate="20111229T073631Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073631Z">
+      <prop type="x-Context">-699971594289729625, 8763770710768263261</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Angewandte Normen</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Applied Norms</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073638Z" creationid="LenovoT400\Administrator" changedate="20111229T073638Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073638Z">
+      <prop type="x-Context">-862225327661314795, 3233214922874816566</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Angewandte Normen gemäß Risikoanalyse</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Applied Norms as per risk analysis</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073649Z" creationid="LenovoT400\Administrator" changedate="20111229T073654Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073654Z">
+      <prop type="x-Context">-6532414019339465058, 7408896944420054207</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Angewandte harmonisierte Normen, insbesondere:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Applied harmonized norms, in particular:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073658Z" creationid="LenovoT400\Administrator" changedate="20111229T073702Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073702Z">
+      <prop type="x-Context">113471963954, 3660386163</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>CE-konform</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>CE-compliant</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073705Z" creationid="LenovoT400\Administrator" changedate="20111229T073705Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073705Z">
+      <prop type="x-Context">3234506163109655037, -9139537244245161584</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Bemerkungen</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Notes</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073706Z" creationid="LenovoT400\Administrator" changedate="20111229T073706Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073706Z">
+      <prop type="x-Context">104314224431091255, 117904005</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 62079   :2001</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 62079   :2001</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073752Z" creationid="LenovoT400\Administrator" changedate="20111229T073752Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073752Z">
+      <prop type="x-Context">6904563593845101208, 8087233864228429221</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>EMV</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>EMC</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073754Z" creationid="LenovoT400\Administrator" changedate="20111229T073754Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084420Z" usagecount="31">
+      <prop type="x-Context">2032081, 2032081</prop>
+      <prop type="x-Context">2032081, 1954832224</prop>
+      <prop type="x-Context">2032081, 1878595680274</prop>
+      <prop type="x-Context">6052476881839048953, -8705986030551460943</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Harmonisierte Norm</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Harmonized norm</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073809Z" creationid="LenovoT400\Administrator" changedate="20111229T073809Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073809Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Elektromagnetisch Verträglichkeit, Störaussendungen – Gewerbebereich</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Electromagnetic conformity, emission standard for commercial environments</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073845Z" creationid="LenovoT400\Administrator" changedate="20111229T073851Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073851Z">
+      <prop type="x-Context">-8708388863500561350, 260962238838664242</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Wird erfüllt durch die Erklärung(en) der Komponenten-Lieferanten und Beachtung der Einbauhinweise</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Is met through the declaration(s) of the component suppliers and through adherence to the installation instructions.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073851Z" creationid="LenovoT400\Administrator" changedate="20111229T073851Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073851Z">
+      <prop type="x-Context">2221236315664825672, 4146387980958041304</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Elektromagnetisch Verträglichkeit, Störfestigkeit  – Industriebebereich</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Electromagnetic compatibility, emission standard for industrial environments</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073901Z" creationid="LenovoT400\Administrator" changedate="20111229T073901Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073901Z">
+      <prop type="x-Context">6904563593845101208, 8087233864228429221</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Niederspannungsrichtlinie</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Low voltage guideline:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073921Z" creationid="LenovoT400\Administrator" changedate="20111229T073921Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073921Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>gültig ab 15.01.07</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>valid from 15/01/07</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073923Z" creationid="LenovoT400\Administrator" changedate="20111229T073923Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T073923Z">
+      <prop type="x-Context">8152391849574467876, 1473910010057925676</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 60825-1  :2007</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 60825-1  :2007</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T073930Z" creationid="LenovoT400\Administrator" changedate="20111229T073930Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T074359Z" usagecount="2">
+      <prop type="x-Context">-8196310449057633126, -8196310449057633126</prop>
+      <prop type="x-Context">3367407977688536036, 3367407977688536036</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Lasereinrichtungen – Teil 1:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of laser equipment- Part 1:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T074335Z" creationid="LenovoT400\Administrator" changedate="20111229T074335Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T074335Z">
+      <prop type="x-Context">7354886782394241768, -4975174394736534632</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Klassifizierung von Anlagen und Anforderungen</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Classification of systems and requirements</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T074352Z" creationid="LenovoT400\Administrator" changedate="20111229T074352Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T074352Z">
+      <prop type="x-Context">1027429694754999089, 6811681851120188032</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>01.09.2010</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>01/09/2010</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T074357Z" creationid="LenovoT400\Administrator" changedate="20111229T074357Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T074357Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 60825-4 :2006           +A1:2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 60825-4 :2006           +A1:2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T074441Z" creationid="LenovoT400\Administrator" changedate="20111229T074441Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T074757Z" usagecount="1">
+      <prop type="x-Context">-4721096000130172823, 104575394270539793</prop>
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>01.10.2009</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>01/10/2009</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T074756Z" creationid="LenovoT400\Administrator" changedate="20111229T074756Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T074756Z">
+      <prop type="x-Context">7354886782394241768, -4975174394736534632</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Laserschutzwände</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Laser guards</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T074806Z" creationid="LenovoT400\Administrator" changedate="20111229T074806Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T083841Z" usagecount="2">
+      <prop type="x-Context">6904563593845101208, 8087233864228429221</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Maschine</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Machine</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T074815Z" creationid="LenovoT400\Administrator" changedate="20111229T074815Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T083842Z" usagecount="1">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>gültig ab 29.12.09</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>valid from 29/12/09</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082040Z" creationid="LenovoT400\Administrator" changedate="20111229T082040Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082040Z">
+      <prop type="x-Context">8152391849574467876, 1473910010057925676</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 60204-1      :2007*)       +A1:2009</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 60204-1      :2007*)       +A1:2009</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082045Z" creationid="LenovoT400\Administrator" changedate="20111229T082045Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084232Z" usagecount="1">
+      <prop type="x-Context">2032174, 2032174</prop>
+      <prop type="x-Context">3367407977688536036, 3367407977688536036</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082058Z" creationid="LenovoT400\Administrator" changedate="20111229T082058Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082058Z">
+      <prop type="x-Context">-2351923734768142815, -1225378678791085179</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Elektrische Ausrüstung von Maschinen - Teil 1:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Electrical equipment of machinery - Part 1:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082101Z" creationid="LenovoT400\Administrator" changedate="20111229T082101Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082101Z">
+      <prop type="x-Context">-2034341975652982602, -931136906668013345</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Allg. Anforderungen</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>General requirements</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082104Z" creationid="LenovoT400\Administrator" changedate="20111229T082104Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082104Z">
+      <prop type="x-Context">-7416470629489442900, 8877535509181853097</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>26.5.10</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>26.5.10</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082218Z" creationid="LenovoT400\Administrator" changedate="20111229T082218Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082246Z" usagecount="2">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 12100-1    :2003           +A1:2009</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 12100-1    :2003           +A1:2009</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082226Z" creationid="LenovoT400\Administrator" changedate="20111229T082226Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082247Z" usagecount="1">
+      <prop type="x-Context">3367407977688536036, 3367407977688536036</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen - Grundbegriffe, Allg. Gestaltungsleitsätze - Teil 1:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Basic concepts, general principles for design - Part 1:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082240Z" creationid="LenovoT400\Administrator" changedate="20111229T082240Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082240Z">
+      <prop type="x-Context">1870976922153808194, -1001495485884639734</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Grundsätzliche Terminologie, Methodik</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Basic terminology, methodology</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082243Z" creationid="LenovoT400\Administrator" changedate="20111229T082243Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084227Z" usagecount="2">
+      <prop type="x-Context">-6866420969508177999, 1129964888068495446</prop>
+      <prop type="x-Context">2872279208131334224, -3738633960887777108</prop>
+      <prop type="x-Context">4619617009365281724, -8343780029895916421</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>18.12.2009</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>18/12/2009</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082252Z" creationid="LenovoT400\Administrator" changedate="20111229T082252Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082252Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 349          :1993          +A1:2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 349          :1993          +A1:2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082307Z" creationid="LenovoT400\Administrator" changedate="20111229T082307Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082307Z">
+      <prop type="x-Context">3266715760488876886, 3266715760488876886</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen ; Mindestabstände zur Vermeidung des Quetschens von Körperteilen</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Minimum gaps to avoid crushing of parts of the human body</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082311Z" creationid="LenovoT400\Administrator" changedate="20111229T082311Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084420Z" usagecount="15">
+      <prop type="x-Context">-8848849119500996343, 8528360803213298873</prop>
+      <prop type="x-Context">-6723327652293947314, 823125345507241592</prop>
+      <prop type="x-Context">-5813508246345792952, 8484403940797760554</prop>
+      <prop type="x-Context">-391286930410680747, 646153937646591855</prop>
+      <prop type="x-Context">-91601107648771524, -3685552185094580395</prop>
+      <prop type="x-Context">-69145716719789902, 5209728918071852343</prop>
+      <prop type="x-Context">104578523934172139, 3377269813886103</prop>
+      <prop type="x-Context">1129295203306647354, 7820408502833945970</prop>
+      <prop type="x-Context">2406948566357469417, -2758863389046070811</prop>
+      <prop type="x-Context">3002350682127476675, 6166123221455386606</prop>
+      <prop type="x-Context">5207007389703212802, 3250751639582227264</prop>
+      <prop type="x-Context">5647846460359547482, -6203848928615879915</prop>
+      <prop type="x-Context">6273687276037031434, 3299719258273052698</prop>
+      <prop type="x-Context">8517116919047321636, 3250027009061806375</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>08.09.2009</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>08/09/2009</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082320Z" creationid="LenovoT400\Administrator" changedate="20111229T082320Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082320Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 13857        :2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 13857	:2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082445Z" creationid="LenovoT400\Administrator" changedate="20111229T082445Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082445Z">
+      <prop type="x-Context">3235487448499328488, 3235487448499328488</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen - Sicherheitsabstände gegen das Erreichen von Gefährdungsbereichen mit den oberen und unteren Gliedmaßen</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Safety distances to prevent hazard zones being reached by upper and lower limbs</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082451Z" creationid="LenovoT400\Administrator" changedate="20111229T082451Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082451Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 614-1          :2006           +A1:2009</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 614-1          :2006           +A1:2009</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082511Z" creationid="LenovoT400\Administrator" changedate="20111229T082511Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082511Z">
+      <prop type="x-Context">3367407977688536036, 3367407977688536036</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen - Ergonomische Gestaltungsgrundsätze - Teil1:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Principles of ergonomic design - Part 1</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082801Z" creationid="LenovoT400\Administrator" changedate="20111229T082801Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082801Z">
+      <prop type="x-Context">-470642053138489353, -3895696567908852097</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Begriffe und allgemeine Leitsätze</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Terminology and general principles</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T082926Z" creationid="LenovoT400\Administrator" changedate="20111229T082926Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T082926Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 626-1      :1994           +A1:2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 626-1      :1994           +A1:2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T083038Z" creationid="LenovoT400\Administrator" changedate="20111229T083038Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T083038Z">
+      <prop type="x-Context">3367407977688536036, 3367407977688536036</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen – Reduzierung des Gesundheitsrisikos durch Gefahrstoffe, die von Maschinen ausgehen – Teil 1:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Reduction of risks to health from hazardous substances emitted by machinery - Part 1</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T083047Z" creationid="LenovoT400\Administrator" changedate="20111229T083047Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T083047Z">
+      <prop type="x-Context">3115454942724900978, -3480473777646032379</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Grundsätze und Festlegung für Maschinenhersteller</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Principles and specifications for machinery manufacturers</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T083052Z" creationid="LenovoT400\Administrator" changedate="20111229T083052Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T083052Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 953        :1997          +A1:2009</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 953        :1997          +A1:2009</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T083522Z" creationid="LenovoT400\Administrator" changedate="20111229T083522Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T083522Z">
+      <prop type="x-Context">3266715760488876886, 3266715760488876886</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen – Trennende Schutz-einrichtungen – Allgemeine Anforderungen an Gestaltung und Bau von feststehenden und beweglichen trennenden Schutzeinrichtungen</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Guards - General requirements for the design and construction of fixed and movable guards</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T083529Z" creationid="LenovoT400\Administrator" changedate="20111229T083529Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T083529Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 894-1           :1997          +A1:2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 894-1           :1997          +A1:2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T083708Z" creationid="LenovoT400\Administrator" changedate="20111229T083708Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T083708Z">
+      <prop type="x-Context">3367407977688536036, 3367407977688536036</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Ergonomische Anforderungen an die Gestaltung von Anzeigen und Stellteilen – Teil 1:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Ergonomic requirements for the design of displays and control actuators - Part 1:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T083722Z" creationid="LenovoT400\Administrator" changedate="20111229T083722Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T083722Z">
+      <prop type="x-Context">-1128694736237398852, -7191370232765699060</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Allgemeine Leitsätze für Benutzer-Interaktion</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>General principles for human interactions</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T083728Z" creationid="LenovoT400\Administrator" changedate="20111229T083728Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T083728Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 842           :1996          +A1:2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 842           :1996          +A1:2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T083809Z" creationid="LenovoT400\Administrator" changedate="20111229T083809Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T083809Z">
+      <prop type="x-Context">3266715760488876886, 3266715760488876886</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen – Optische Gefahrensignale</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Visual hazard signals</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T083845Z" creationid="LenovoT400\Administrator" changedate="20111229T083845Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T083845Z">
+      <prop type="x-Context">8152391849574467876, 1473910010057925676</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 983         :1996           +A1:2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 983           :1996          +A1:2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084037Z" creationid="LenovoT400\Administrator" changedate="20111229T084037Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084037Z">
+      <prop type="x-Context">3266715760488876886, 3266715760488876886</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen - Sicherheitstechnische Anforderungen an fluidtechnische Anlagen und deren Bauteile; Pneumatik</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Safety requirements for fluid power systems and their components - pneumatic</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084043Z" creationid="LenovoT400\Administrator" changedate="20111229T084043Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084043Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN ISO 13855     :2010</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN ISO 13855     :2010</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084048Z" creationid="LenovoT400\Administrator" changedate="20111229T084048Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084055Z" usagecount="1">
+      <prop type="x-Context">103681353653078271, 103681353653078271</prop>
+      <prop type="x-Context">3266715760488876886, 3266715760488876886</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen - Vermeidung von unerwartetem Anlauf</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Prevention of unexpected start-up</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084054Z" creationid="LenovoT400\Administrator" changedate="20111229T084054Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084054Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 1037        :1995            A1:2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 1037        :1995            A1:2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084059Z" creationid="LenovoT400\Administrator" changedate="20111229T084059Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084059Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 1088        :1995          +A2:2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 1088        :1995          +A2:2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084142Z" creationid="LenovoT400\Administrator" changedate="20111229T084142Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084142Z">
+      <prop type="x-Context">3266715760488906677, 3266715760488906677</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen – Verriegelungsein-richtungen in Verbindung mit trennenden Schutzeinrichtungen  - Leitsätze für Gestaltung und Auswahl</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Locking equipment in connection with guards - principles for design and selection</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084147Z" creationid="LenovoT400\Administrator" changedate="20111229T084147Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084147Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN 1837       :1999         +A1:2009</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN 1837       :1999         +A1:2009</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084226Z" creationid="LenovoT400\Administrator" changedate="20111229T084226Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084226Z">
+      <prop type="x-Context">3266715760488876886, 3266715760488876886</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen -  Maschinenintegrierte Beleuchtung</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Integral lighting of machines</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084230Z" creationid="LenovoT400\Administrator" changedate="20111229T084230Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084230Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN ISO 13850:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN ISO 13850:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084231Z" creationid="LenovoT400\Administrator" changedate="20111229T084231Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084231Z">
+      <prop type="x-Context">-8196312214485252211, -8196312214485252211</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>2008 *)</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>2008 *)</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084322Z" creationid="LenovoT400\Administrator" changedate="20111229T084322Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084322Z">
+      <prop type="x-Context">-2351923734768142815, -1225378678791085179</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Not Halt, Gestaltungsleitsätze</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Emergency stop - principles of design</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084326Z" creationid="LenovoT400\Administrator" changedate="20111229T084326Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084326Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN ISO 13849-1 :2008  *)</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN ISO 13849-1 :2008  *)</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084344Z" creationid="LenovoT400\Administrator" changedate="20111229T084344Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084344Z">
+      <prop type="x-Context">7404060492062373361, 7404060492062373361</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen - Sicherheitsbezogene Teile von Steuerungen - Teil 1:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Safety-related parts of control systems - Part 1:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084356Z" creationid="LenovoT400\Administrator" changedate="20111229T084356Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084356Z">
+      <prop type="x-Context">5420004880033193978, -828637956879557423</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Allgemeine Gestaltungsleitsätze</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>General design principles</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084400Z" creationid="LenovoT400\Administrator" changedate="20111229T084400Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084411Z" usagecount="1">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Context">2032081, 2032081</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>DIN EN ISO 13849-2 :2008</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>DIN EN ISO 13849-2 :2008</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084408Z" creationid="LenovoT400\Administrator" changedate="20111229T084408Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084408Z">
+      <prop type="x-Context">7404060492062373361, 7404060492062373361</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen - Sicherheitsbezogene Teile von Steuerungen – Teil 2:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Safety-related parts of control systems - Part 2:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084418Z" creationid="LenovoT400\Administrator" changedate="20111229T084418Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084418Z">
+      <prop type="x-Context">7404060492062373361, 7404060492062373361</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheit von Maschinen - Risikobeurteilung -     Teil 1:</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety of machinery - Risk assessment- 	Part 1:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084436Z" creationid="LenovoT400\Administrator" changedate="20111229T084436Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084436Z">
+      <prop type="x-Context">-6420337111922736270, 3393504305862488068</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Maschinenbeschreibung und Bestimmungsgemäße Verwendung</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Machine description and intended use</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084442Z" creationid="LenovoT400\Administrator" changedate="20111229T084442Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084442Z">
+      <prop type="x-Context">-6812967631038508821, 3449846461461376766</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Maschinenbeschreibung</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Machine description</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084540Z" creationid="LenovoT400\Administrator" changedate="20111229T084540Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084700Z" usagecount="1">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Context">7445866698420742454, -3535016182637127738</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Nr.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>No.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084544Z" creationid="LenovoT400\Administrator" changedate="20111229T084544Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084544Z">
+      <prop type="x-Context">117904718, 117901835</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Bezeichnung</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Designation</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084549Z" creationid="LenovoT400\Administrator" changedate="20111229T084549Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084549Z">
+      <prop type="x-Context">8012592769733489688, 8063228012277417441</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Funktion</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Function</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084659Z" creationid="LenovoT400\Administrator" changedate="20111229T084659Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084659Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Abb. Anlagenübersicht</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Fig. Overview of machine</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084812Z" creationid="LenovoT400\Administrator" changedate="20111229T084812Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084812Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Lichtvorhang</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Light curtain</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084827Z" creationid="LenovoT400\Administrator" changedate="20111229T084827Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084827Z">
+      <prop type="x-Context">-1904541645602766297, -3598920094810661940</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Sicherheitseinrichtung der Maschine.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Safety device of the machine.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084855Z" creationid="LenovoT400\Administrator" changedate="20111229T084855Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084855Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Bedientaster</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Controls</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084841Z" creationid="LenovoT400\Administrator" changedate="20111229T084906Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084906Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Context">8564773741039874644, 108584010189627</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Zum Starten des nächsten Arbeitstaktes.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>for starting the next work cycle.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084912Z" creationid="LenovoT400\Administrator" changedate="20111229T084912Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084912Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Kamera inkl. Beleuchtung</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Camera including lighting</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084920Z" creationid="LenovoT400\Administrator" changedate="20111229T084920Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084920Z">
+      <prop type="x-Context">-1218947509527005573, 722970846139077225</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Zur Kontrolle von Primerfeld und 2D-Code.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>To control primer field and 2D code.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084928Z" creationid="LenovoT400\Administrator" changedate="20111229T084928Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T084928Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Bedienpanel Kamera</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Control panel, camera</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T084955Z" creationid="LenovoT400\Administrator" changedate="20111229T085028Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T085028Z">
+      <prop type="x-Context">-3107822966785065734, 6941558667305085683</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Monitor inkl. Touch-Panel zur Steuerung und Kontrolle der Kamera.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Monitor including touch panel for controlling and testing the camera.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T085039Z" creationid="LenovoT400\Administrator" changedate="20111229T085039Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T085039Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Not-Aus Taster / <ph x="1" type="2056" />Steuersp.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Emergency Stop button/ <ph x="1" type="2056" />control volt.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T085041Z" creationid="LenovoT400\Administrator" changedate="20111229T085041Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T085041Z">
+      <prop type="x-Context">-1162213182734648173, 6893141065317827333</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Ein Taster</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>On button</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T085217Z" creationid="LenovoT400\Administrator" changedate="20111229T085217Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T085217Z">
+      <prop type="x-Context">3236307087881614707, 104666025659387881</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Not-Aus / Wiedereinschalten der Steuerspannung, wenn Not-Aus betätigt wurde.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Emergency stop/ re-initialize control voltage when emergency stop was actuated.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T085233Z" creationid="LenovoT400\Administrator" changedate="20111229T085233Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T085233Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Absaugung</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Suction unit</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T085238Z" creationid="LenovoT400\Administrator" changedate="20111229T085238Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T085238Z">
+      <prop type="x-Context">104285387743681355, 3914307264161333909</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Für Laser und Primereinheiten.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>For laser and primer units.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T085247Z" creationid="LenovoT400\Administrator" changedate="20111229T085247Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T085247Z">
+      <prop type="x-Context">0, 0</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Laser Steuergerät</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>Laser control unit</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20111229T085346Z" creationid="LenovoT400\Administrator" changedate="20111229T085346Z" changeid="LenovoT400\Administrator" lastusagedate="20111229T085346Z">
+      <prop type="x-Context">-144483936048847998, -8427098556471503553</prop>
+      <prop type="x-Origin">TM</prop>
+      <prop type="x-ConfirmationLevel">Translated</prop>
+      <tuv xml:lang="de-DE">
+        <seg>Zum Aufbringen des 2D-Codes.</seg>
+      </tuv>
+      <tuv xml:lang="en-US">
+        <seg>For applying the 2D code.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -33,11 +33,13 @@ url2 = "https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0Anhry-cpG
 
 #have a list of memories, create repos..then fill
 doctmx = "AUDI_ALTA_ENUS.tmx"
+interimtxm = "memory_interim_122911_0954UCT.tmx"
 
 
 eurotmx = "8796_EUROS.tmx"
 
-  f = File.open(eurotmx)
+def importtmx(filename)
+  f = File.open(filename)
   # representation of whole document
   doc = Nokogiri::XML.parse(f)
   
@@ -62,8 +64,7 @@ eurotmx = "8796_EUROS.tmx"
     seg= seg.children.reject {|x| x.element?}.join {|x| x.content}.squeeze(" ").strip
     # create Translation object
   end
-  puts translations['200']
-  puts translations['200']
+
   
   
   target language
@@ -122,7 +123,7 @@ eurotmx = "8796_EUROS.tmx"
 
 #any propos? get props
 
-
+end
 
 
 
